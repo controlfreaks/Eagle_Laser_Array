@@ -11448,6 +11448,10 @@ unfilled</description>
 <part name="SUPPLY27" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY28" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY29" library="supply2" deviceset="GND" device=""/>
+<part name="S16" library="Mine" deviceset="TC74" device=""/>
+<part name="S17" library="Mine" deviceset="TC74" device=""/>
+<part name="S18" library="Mine" deviceset="TC74" device=""/>
+<part name="S19" library="Mine" deviceset="TC74" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11799,6 +11803,10 @@ unfilled</description>
 <instance part="SUPPLY29" gate="GND" x="276.86" y="45.72" smashed="yes">
 <attribute name="VALUE" x="280.035" y="45.085" size="1.778" layer="96"/>
 </instance>
+<instance part="S16" gate="G$1" x="335.28" y="55.88"/>
+<instance part="S17" gate="G$1" x="358.14" y="38.1"/>
+<instance part="S18" gate="G$1" x="335.28" y="20.32"/>
+<instance part="S19" gate="G$1" x="358.14" y="2.54"/>
 </instances>
 <busses>
 </busses>

@@ -11679,7 +11679,7 @@ unfilled</description>
 <instance part="LED23" gate="G$1" x="264.16" y="-25.4" rot="R90"/>
 <instance part="LED24" gate="G$1" x="264.16" y="-88.9" rot="R90"/>
 <instance part="LED25" gate="G$1" x="264.16" y="-12.7" rot="R90"/>
-<instance part="S4" gate="G$1" x="228.6" y="50.8" rot="MR0"/>
+<instance part="S4" gate="G$1" x="228.6" y="50.8" smashed="yes" rot="MR0"/>
 <instance part="S5" gate="G$1" x="228.6" y="38.1" rot="MR0"/>
 <instance part="S6" gate="G$1" x="228.6" y="25.4" rot="MR0"/>
 <instance part="S7" gate="G$1" x="228.6" y="12.7" rot="MR0"/>

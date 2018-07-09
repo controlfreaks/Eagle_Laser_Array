@@ -2008,6 +2008,7 @@ design rules under a new name.</description>
 <attribute name="MPN" value="22-23-2031" x="10.16" y="-83.82" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U2" library="Mine" package="SOT23-6" value="MAX6817" x="2.54" y="-82.55"/>
+<element name="R8" library="rcl" package="R0805" value="10k" x="2.54" y="-88.9"/>
 </elements>
 <signals>
 <signal name="VDD">
@@ -2027,6 +2028,7 @@ design rules under a new name.</description>
 <contactref element="R7" pad="2"/>
 <contactref element="R6" pad="2"/>
 <contactref element="U2" pad="5"/>
+<contactref element="R8" pad="2"/>
 <wire x1="98.11" y1="68.58" x2="104.14" y2="87.63" width="0" layer="19" extent="1-1"/>
 <wire x1="98.11" y1="62.23" x2="98.11" y2="68.58" width="0" layer="19" extent="1-1"/>
 <wire x1="70.17" y1="53.34" x2="98.11" y2="62.23" width="0" layer="19" extent="1-1"/>
@@ -2042,6 +2044,7 @@ design rules under a new name.</description>
 <wire x1="16.19" y1="-69.85" x2="31.75" y2="40.64" width="0" layer="19" extent="1-1"/>
 <wire x1="3.49" y1="-76.2" x2="16.19" y2="-69.85" width="0" layer="19" extent="1-1"/>
 <wire x1="2.54" y1="-81.4" x2="3.49" y2="-76.2" width="0" layer="19" extent="1-1"/>
+<wire x1="3.49" y1="-88.9" x2="2.54" y2="-81.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+12V">
 <contactref element="X1" pad="2"/>
@@ -2185,11 +2188,6 @@ design rules under a new name.</description>
 <contactref element="U2" pad="4"/>
 <wire x1="3.49" y1="-81.4" x2="17.06" y2="75.73" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$9">
-<contactref element="S2" pad="2"/>
-<contactref element="U2" pad="3"/>
-<wire x1="3.49" y1="-83.7" x2="106.68" y2="50.8" width="0" layer="19" extent="1-1"/>
-</signal>
 <signal name="ONLED">
 <contactref element="Q2" pad="1"/>
 <contactref element="R2" pad="1"/>
@@ -2288,6 +2286,16 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$14">
 <contactref element="U2" pad="6"/>
+</signal>
+<signal name="N$9">
+<contactref element="S2" pad="2"/>
+<contactref element="U2" pad="3"/>
+<contactref element="R8" pad="1"/>
+<wire x1="3.49" y1="-83.7" x2="106.68" y2="50.8" width="0" layer="19" extent="1-1"/>
+<wire x1="1.59" y1="-88.9" x2="3.49" y2="-83.7" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="ENSW">
+<contactref element="U2" pad="1"/>
 </signal>
 </signals>
 </board>

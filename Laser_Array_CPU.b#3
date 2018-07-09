@@ -2031,6 +2031,12 @@ design rules under a new name.</description>
 <element name="Q4" library="Mine" package="SOT23-5L" value="" x="2.54" y="-129.54"/>
 <element name="R9" library="rcl" package="R0805" value="100k" x="6.35" y="-128.27"/>
 <element name="RLY1" library="Mine" package="RELAY_SPST" value="RELAY_SPST" x="11.43" y="-140.97"/>
+<element name="J3" library="Mine" package="22-23-2021" value="22-23-2021" x="11.43" y="-158.75">
+<attribute name="OC_FARNELL" value="1462926" x="11.43" y="-158.75" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="MOLEX" x="11.43" y="-158.75" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="25C3832" x="11.43" y="-158.75" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="22-23-2021" x="11.43" y="-158.75" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="VDD">
@@ -2296,8 +2302,10 @@ design rules under a new name.</description>
 <contactref element="C10" pad="1"/>
 <contactref element="R6" pad="1"/>
 <contactref element="X4" pad="2"/>
-<wire x1="14.29" y1="-69.85" x2="10.16" y2="-100.33" width="0" layer="19" extent="1-1"/>
+<contactref element="IC1" pad="23"/>
+<wire x1="14.29" y1="-69.85" x2="28.66" y2="70.93" width="0" layer="19" extent="1-1"/>
 <wire x1="1.59" y1="-69.85" x2="14.29" y2="-69.85" width="0" layer="19" extent="1-1"/>
+<wire x1="10.16" y1="-100.33" x2="14.29" y2="-69.85" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$14">
 <contactref element="U2" pad="6"/>
@@ -2325,8 +2333,10 @@ design rules under a new name.</description>
 <contactref element="R7" pad="1"/>
 <contactref element="C11" pad="1"/>
 <contactref element="X4" pad="3"/>
-<wire x1="1.59" y1="-76.2" x2="12.7" y2="-100.33" width="0" layer="19" extent="1-1"/>
-<wire x1="7.94" y1="-69.85" x2="1.59" y2="-76.2" width="0" layer="19" extent="1-1"/>
+<contactref element="IC1" pad="24"/>
+<wire x1="7.94" y1="-69.85" x2="28.66" y2="71.73" width="0" layer="19" extent="1-1"/>
+<wire x1="1.59" y1="-76.2" x2="7.94" y2="-69.85" width="0" layer="19" extent="1-1"/>
+<wire x1="12.7" y1="-100.33" x2="1.59" y2="-76.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$15">
 <contactref element="Q4" pad="5"/>
@@ -2343,6 +2353,16 @@ design rules under a new name.</description>
 <contactref element="M1" pad="2"/>
 <contactref element="RLY1" pad="1"/>
 <wire x1="7.62" y1="-140.97" x2="142.24" y2="30.48" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="CHGA">
+<contactref element="J3" pad="1"/>
+<contactref element="IC1" pad="8"/>
+<wire x1="17.06" y1="73.33" x2="10.16" y2="-158.75" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="CHGB">
+<contactref element="J3" pad="2"/>
+<contactref element="IC1" pad="9"/>
+<wire x1="17.06" y1="72.53" x2="12.7" y2="-158.75" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>

@@ -2126,6 +2126,10 @@ design rules under a new name.</description>
 <element name="S13" library="Mine" package="22-23-2021" value="TOGGLE_SPST" x="11.43" y="-1047.75"/>
 <element name="S14" library="Mine" package="22-23-2021" value="TOGGLE_SPST" x="11.43" y="-1068.07"/>
 <element name="S15" library="Mine" package="22-23-2021" value="TOGGLE_SPST" x="11.43" y="-1088.39"/>
+<element name="S16" library="Mine" package="SOT23-5L" value="TC74" x="2.54" y="-1102.36"/>
+<element name="S17" library="Mine" package="SOT23-5L" value="TC74" x="2.54" y="-1109.98"/>
+<element name="S18" library="Mine" package="SOT23-5L" value="TC74" x="2.54" y="-1117.6"/>
+<element name="S19" library="Mine" package="SOT23-5L" value="TC74" x="2.54" y="-1125.22"/>
 </elements>
 <signals>
 <signal name="VDD">
