@@ -11673,6 +11673,7 @@ unfilled</description>
 <part name="S19" library="Mine" deviceset="TC74" device=""/>
 <part name="R37" library="rcl" deviceset="R-US_" device="M0805" value="4.7k"/>
 <part name="R38" library="rcl" deviceset="R-US_" device="M0805" value="4.7k"/>
+<part name="C17" library="rcl" deviceset="C-US" device="C0805" value="0.1uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -12228,6 +12229,10 @@ unfilled</description>
 <attribute name="NAME" x="369.57" y="-117.8814" size="1.778" layer="95"/>
 <attribute name="VALUE" x="369.57" y="-127.762" size="1.778" layer="96"/>
 </instance>
+<instance part="C17" gate="G$1" x="-12.7" y="-50.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="-12.192" y="-45.847" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-9.398" y="-54.483" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -12249,7 +12254,8 @@ unfilled</description>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="AVDD"/>
-<wire x1="0" y1="-35.56" x2="0" y2="-53.34" width="0.1524" layer="91"/>
+<wire x1="0" y1="-35.56" x2="0" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="0" y1="-43.18" x2="0" y2="-53.34" width="0.1524" layer="91"/>
 <wire x1="0" y1="-53.34" x2="0" y2="-73.66" width="0.1524" layer="91"/>
 <wire x1="0" y1="-73.66" x2="-12.7" y2="-73.66" width="0.1524" layer="91"/>
 <label x="-12.7" y="-73.66" size="1.778" layer="95" rot="R180" xref="yes"/>
@@ -12261,6 +12267,11 @@ unfilled</description>
 <wire x1="25.4" y1="-48.26" x2="25.4" y2="-53.34" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="-53.34" x2="0" y2="-53.34" width="0.1524" layer="91"/>
 <junction x="0" y="-53.34"/>
+<pinref part="C17" gate="G$1" pin="1"/>
+<wire x1="-15.24" y1="-50.8" x2="-17.78" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="-50.8" x2="-17.78" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="-43.18" x2="0" y2="-43.18" width="0.1524" layer="91"/>
+<junction x="0" y="-43.18"/>
 </segment>
 <segment>
 <pinref part="J2" gate="-1" pin="S"/>
@@ -12631,6 +12642,8 @@ unfilled</description>
 <junction x="-2.54" y="-50.8"/>
 <wire x1="-50.8" y1="-63.5" x2="-2.54" y2="-63.5" width="0.1524" layer="91"/>
 <junction x="-2.54" y="-63.5"/>
+<pinref part="C17" gate="G$1" pin="2"/>
+<wire x1="-7.62" y1="-50.8" x2="-2.54" y2="-50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY1" gate="GND" pin="GND"/>
