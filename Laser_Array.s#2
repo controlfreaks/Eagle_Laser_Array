@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -11781,6 +11781,7 @@ unfilled</description>
 <text x="322.58" y="-109.22" size="1.778" layer="91">TS10</text>
 <text x="393.7" y="-109.22" size="1.778" layer="91">TS11</text>
 <text x="-76.2" y="101.6" size="1.778" layer="91">Altered on Surface</text>
+<text x="-78.74" y="96.52" size="1.778" layer="91">Altered again on laptob.</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="0" y="0"/>

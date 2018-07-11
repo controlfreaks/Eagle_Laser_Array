@@ -13017,13 +13017,16 @@ unfilled</description>
 <junction x="76.2" y="7.62"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="DC" class="0">
 <segment>
 <pinref part="J2" gate="-3" pin="S"/>
 <wire x1="-88.9" y1="-20.32" x2="-38.1" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="-38.1" y1="-20.32" x2="-38.1" y2="-10.16" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="RB12"/>
 <wire x1="-38.1" y1="-10.16" x2="-35.56" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="-20.32" x2="-38.1" y2="-22.86" width="0.1524" layer="91"/>
+<junction x="-38.1" y="-20.32"/>
+<label x="-38.1" y="-22.86" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SCLK" class="0">
@@ -13053,11 +13056,15 @@ unfilled</description>
 <net name="CS" class="0">
 <segment>
 <pinref part="J2" gate="-6" pin="S"/>
-<wire x1="-88.9" y1="-27.94" x2="-38.1" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="-88.9" y1="-27.94" x2="-83.82" y2="-27.94" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="TMS"/>
+<wire x1="-83.82" y1="-27.94" x2="-38.1" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="-35.56" x2="-12.7" y2="-38.1" width="0.1524" layer="91"/>
 <wire x1="-12.7" y1="-38.1" x2="-38.1" y2="-38.1" width="0.1524" layer="91"/>
 <wire x1="-38.1" y1="-38.1" x2="-38.1" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="-83.82" y1="-27.94" x2="-83.82" y2="-30.48" width="0.1524" layer="91"/>
+<junction x="-83.82" y="-27.94"/>
+<label x="-83.82" y="-30.48" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="N$10" class="0">
