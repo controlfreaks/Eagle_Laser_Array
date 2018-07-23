@@ -11448,6 +11448,10 @@ unfilled</description>
 <part name="SUPPLY27" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY28" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY29" library="supply2" deviceset="GND" device=""/>
+<part name="S16" library="Mine" deviceset="TC74" device=""/>
+<part name="S17" library="Mine" deviceset="TC74" device=""/>
+<part name="S18" library="Mine" deviceset="TC74" device=""/>
+<part name="S19" library="Mine" deviceset="TC74" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11491,6 +11495,42 @@ unfilled</description>
 <text x="54.356" y="-49.022" size="1.778" layer="91">**</text>
 <text x="135.89" y="-86.868" size="1.4224" layer="91">CHGSTATA</text>
 <text x="135.636" y="-89.408" size="1.4224" layer="91">CHGSTATB</text>
+<text x="226.06" y="53.34" size="1.778" layer="91">S3</text>
+<text x="226.06" y="40.64" size="1.778" layer="91">S4</text>
+<text x="226.06" y="27.94" size="1.778" layer="91">S5</text>
+<text x="226.06" y="15.24" size="1.778" layer="91">S6</text>
+<text x="226.06" y="2.54" size="1.778" layer="91">S7</text>
+<text x="226.06" y="-10.16" size="1.778" layer="91">S8</text>
+<text x="226.06" y="-22.86" size="1.778" layer="91">S9</text>
+<text x="226.06" y="-35.56" size="1.778" layer="91">S10</text>
+<text x="226.06" y="-48.26" size="1.778" layer="91">S11</text>
+<text x="226.06" y="-60.96" size="1.778" layer="91">S12</text>
+<text x="226.06" y="-73.66" size="1.778" layer="91">S13</text>
+<text x="226.06" y="-86.36" size="1.778" layer="91">S14</text>
+<text x="241.3" y="48.26" size="1.778" layer="91">D3</text>
+<text x="248.92" y="35.56" size="1.778" layer="91">D4</text>
+<text x="241.3" y="22.86" size="1.778" layer="91">D5</text>
+<text x="248.92" y="10.16" size="1.778" layer="91">D6</text>
+<text x="241.3" y="-2.54" size="1.778" layer="91">D7</text>
+<text x="248.92" y="-15.24" size="1.778" layer="91">D8</text>
+<text x="241.3" y="-27.94" size="1.778" layer="91">D9</text>
+<text x="248.92" y="-40.64" size="1.778" layer="91">D10</text>
+<text x="241.3" y="-53.34" size="1.778" layer="91">D11</text>
+<text x="248.92" y="-66.04" size="1.778" layer="91">D12</text>
+<text x="241.3" y="-78.74" size="1.778" layer="91">D13</text>
+<text x="248.92" y="-91.44" size="1.778" layer="91">D14</text>
+<text x="266.7" y="53.34" size="1.778" layer="91">LAS1</text>
+<text x="266.7" y="40.64" size="1.778" layer="91">LAS2</text>
+<text x="266.7" y="27.94" size="1.778" layer="91">LAS3</text>
+<text x="266.7" y="15.24" size="1.778" layer="91">LAS4</text>
+<text x="266.7" y="2.54" size="1.778" layer="91">LAS5</text>
+<text x="266.7" y="-10.16" size="1.778" layer="91">LAS6</text>
+<text x="266.7" y="-22.86" size="1.778" layer="91">LAS7</text>
+<text x="266.7" y="-35.56" size="1.778" layer="91">LAS8</text>
+<text x="266.7" y="-48.26" size="1.778" layer="91">LAS9</text>
+<text x="266.7" y="-60.96" size="1.778" layer="91">LAS10</text>
+<text x="266.7" y="-73.66" size="1.778" layer="91">LAS11</text>
+<text x="266.7" y="-86.36" size="1.778" layer="91">LAS12</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="0" y="0"/>
@@ -11679,7 +11719,7 @@ unfilled</description>
 <instance part="LED23" gate="G$1" x="264.16" y="-25.4" rot="R90"/>
 <instance part="LED24" gate="G$1" x="264.16" y="-88.9" rot="R90"/>
 <instance part="LED25" gate="G$1" x="264.16" y="-12.7" rot="R90"/>
-<instance part="S4" gate="G$1" x="228.6" y="50.8" rot="MR0"/>
+<instance part="S4" gate="G$1" x="228.6" y="50.8" smashed="yes" rot="MR0"/>
 <instance part="S5" gate="G$1" x="228.6" y="38.1" rot="MR0"/>
 <instance part="S6" gate="G$1" x="228.6" y="25.4" rot="MR0"/>
 <instance part="S7" gate="G$1" x="228.6" y="12.7" rot="MR0"/>
@@ -11763,6 +11803,10 @@ unfilled</description>
 <instance part="SUPPLY29" gate="GND" x="276.86" y="45.72" smashed="yes">
 <attribute name="VALUE" x="280.035" y="45.085" size="1.778" layer="96"/>
 </instance>
+<instance part="S16" gate="G$1" x="335.28" y="55.88"/>
+<instance part="S17" gate="G$1" x="358.14" y="38.1"/>
+<instance part="S18" gate="G$1" x="335.28" y="20.32"/>
+<instance part="S19" gate="G$1" x="358.14" y="2.54"/>
 </instances>
 <busses>
 </busses>
