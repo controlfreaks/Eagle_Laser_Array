@@ -1738,12 +1738,18 @@ design rules under a new name.</description>
 <contactref element="C2" pad="+"/>
 <contactref element="CHG2" pad="10"/>
 <contactref element="PS1" pad="3"/>
+<contactref element="RLY1" pad="1"/>
+<contactref element="RLY1" pad="7"/>
+<contactref element="P1" pad="1"/>
 <wire x1="68.89" y1="70" x2="71.43" y2="70" width="0" layer="19" extent="1-1"/>
 <wire x1="50.46" y1="60" x2="68.89" y2="70" width="0" layer="19" extent="1-1"/>
 <wire x1="31.43" y1="52" x2="50.46" y2="60" width="0" layer="19" extent="1-1"/>
 <wire x1="28.89" y1="52" x2="31.43" y2="52" width="0" layer="19" extent="1-1"/>
 <wire x1="50.46" y1="36" x2="50.46" y2="60" width="0" layer="19" extent="1-1"/>
-<wire x1="13.27" y1="-50" x2="50.46" y2="36" width="0" layer="19" extent="1-1"/>
+<wire x1="34.62" y1="25" x2="50.46" y2="36" width="0" layer="19" extent="1-1"/>
+<wire x1="19.38" y1="25" x2="34.62" y2="25" width="0" layer="19" extent="1-1"/>
+<wire x1="13.27" y1="-50" x2="19.38" y2="25" width="0" layer="19" extent="1-1"/>
+<wire x1="8.19" y1="-82" x2="13.27" y2="-50" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$12">
 <contactref element="R1" pad="2"/>
@@ -1814,48 +1820,40 @@ design rules under a new name.</description>
 <wire x1="8.19" y1="-50" x2="16.9" y2="-13.3" width="0" layer="19" extent="1-1"/>
 <wire x1="7.92" y1="-66" x2="8.19" y2="-50" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="GNDA">
-<contactref element="CHG1" pad="5"/>
-<contactref element="CHG1" pad="6"/>
-<contactref element="R1" pad="1"/>
-<contactref element="C1" pad="-"/>
-<contactref element="R3" pad="1"/>
-<contactref element="R6" pad="1"/>
-<contactref element="PS1" pad="4"/>
+<signal name="GND">
+<contactref element="RLY1" pad="4"/>
+<contactref element="RLY1" pad="10"/>
+<contactref element="P1" pad="2"/>
+<contactref element="RLY2" pad="7"/>
 <contactref element="R4" pad="1"/>
 <contactref element="R5" pad="1"/>
 <contactref element="R2" pad="2"/>
 <contactref element="CHG2" pad="5"/>
 <contactref element="C2" pad="-"/>
 <contactref element="CHG2" pad="6"/>
+<contactref element="CHG1" pad="5"/>
+<contactref element="CHG1" pad="6"/>
+<contactref element="R1" pad="1"/>
+<contactref element="C1" pad="-"/>
+<contactref element="R3" pad="1"/>
+<contactref element="PS1" pad="4"/>
+<contactref element="R6" pad="1"/>
 <wire x1="61.27" y1="70" x2="73.27" y2="59" width="0" layer="19" extent="1-1"/>
 <wire x1="58.73" y1="70" x2="61.27" y2="70" width="0" layer="19" extent="1-1"/>
 <wire x1="57.05" y1="62" x2="58.73" y2="70" width="0" layer="19" extent="1-1"/>
 <wire x1="55.54" y1="60" x2="57.05" y2="62" width="0" layer="19" extent="1-1"/>
 <wire x1="55.05" y1="47" x2="55.54" y2="60" width="0" layer="19" extent="1-1"/>
 <wire x1="55.54" y1="36" x2="55.05" y2="47" width="0" layer="19" extent="1-1"/>
-<wire x1="24.73" y1="42" x2="55.05" y2="47" width="0" layer="19" extent="1-1"/>
+<wire x1="27" y1="25" x2="55.54" y2="36" width="0" layer="19" extent="1-1"/>
+<wire x1="29.54" y1="18.65" x2="27" y2="25" width="0" layer="19" extent="1-1"/>
+<wire x1="24.73" y1="42" x2="27" y2="25" width="0" layer="19" extent="1-1"/>
 <wire x1="21.27" y1="52" x2="24.73" y2="42" width="0" layer="19" extent="1-1"/>
 <wire x1="18.73" y1="52" x2="21.27" y2="52" width="0" layer="19" extent="1-1"/>
 <wire x1="17.05" y1="62" x2="18.73" y2="52" width="0" layer="19" extent="1-1"/>
 <wire x1="7.05" y1="62" x2="17.05" y2="62" width="0" layer="19" extent="1-1"/>
-<wire x1="15.81" y1="-50" x2="24.73" y2="42" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="+12V">
-<contactref element="RLY1" pad="1"/>
-<contactref element="RLY1" pad="7"/>
-<contactref element="P1" pad="1"/>
-<wire x1="19.38" y1="25" x2="8.19" y2="-82" width="0" layer="19" extent="1-1"/>
-<wire x1="34.62" y1="25" x2="19.38" y2="25" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="GND">
-<contactref element="RLY1" pad="4"/>
-<contactref element="RLY1" pad="10"/>
-<contactref element="P1" pad="2"/>
-<contactref element="RLY2" pad="7"/>
-<wire x1="29.54" y1="18.65" x2="97.73" y2="25.65" width="0" layer="19" extent="1-1"/>
-<wire x1="27" y1="25" x2="29.54" y2="18.65" width="0" layer="19" extent="1-1"/>
-<wire x1="10.73" y1="-82" x2="29.54" y2="18.65" width="0" layer="19" extent="1-1"/>
+<wire x1="97.73" y1="25.65" x2="73.27" y2="59" width="0" layer="19" extent="1-1"/>
+<wire x1="15.81" y1="-50" x2="29.54" y2="18.65" width="0" layer="19" extent="1-1"/>
+<wire x1="10.73" y1="-82" x2="15.81" y2="-50" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VDD">
 <contactref element="RLY2" pad="4"/>
