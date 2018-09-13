@@ -161,20 +161,19 @@
 <dimension x1="0" y1="0" x2="93.4974" y2="2.9718" x3="46.7487" y3="-4.064" textsize="1.778" layer="21" dtype="horizontal"/>
 <dimension x1="0" y1="0" x2="-2.5024" y2="160.0706" x3="-3.81" y3="80.0353" textsize="1.778" layer="21" dtype="vertical"/>
 <text x="27.226" y="127.634" size="1.778" layer="21">S1</text>
-<text x="30.02" y="137.794" size="1.778" layer="21">LH1</text>
+<text x="26.464" y="142.62" size="1.778" layer="21">LH1</text>
 <text x="7.16" y="141.858" size="1.778" layer="21">TH1</text>
-<dimension x1="0" y1="0" x2="10" y2="-2" x3="5" y3="14" textsize="1.778" layer="21" dtype="horizontal"/>
-<dimension x1="0" y1="0" x2="-5" y2="10" x3="16" y3="5" textsize="1.778" layer="21" dtype="vertical"/>
 <hole x="10" y="10" drill="3.2"/>
-<dimension x1="-3.55" y1="160" x2="11" y2="150" x3="-6" y3="155" textsize="1.778" layer="21" dtype="vertical"/>
-<dimension x1="0" y1="160.02" x2="10" y2="160" x3="5" y3="146" textsize="1.778" layer="21" dtype="horizontal"/>
 <hole x="10" y="150" drill="3.2"/>
-<dimension x1="93.452" y1="0" x2="83.439" y2="2.5908" x3="88.4455" y3="16.256" textsize="1.778" layer="21" dtype="horizontal"/>
-<dimension x1="93.452" y1="0" x2="95.4278" y2="10.033" x3="74.93" y3="5.0165" textsize="1.778" layer="21" dtype="vertical"/>
 <hole x="83.44" y="10.04" drill="3.2"/>
-<dimension x1="93.452" y1="160.02" x2="92" y2="150" x3="77" y3="155.01" textsize="1.778" layer="21" dtype="vertical"/>
-<dimension x1="93.452" y1="160.02" x2="83.45" y2="154.61" x3="88.451" y3="146" textsize="1.778" layer="21" dtype="horizontal"/>
 <hole x="83.46" y="150" drill="3.2"/>
+<text x="30.226" y="11.176" size="1.778" layer="21">Temperature Sensor Board V1.0.</text>
+<text x="17.526" y="6.858" size="1.778" layer="21">Terawatt Productions Inc. Sept 13, 2018.</text>
+<text x="51.054" y="155.956" size="1.27" layer="21">Power </text>
+<text x="37.338" y="155.956" size="1.27" layer="21">Signals</text>
+<text x="81.836" y="141.858" size="1.778" layer="21">TH0</text>
+<text x="66.596" y="142.62" size="1.778" layer="21">LH0</text>
+<text x="63.802" y="127.634" size="1.778" layer="21">S0</text>
 </plain>
 <libraries>
 <library name="rcl">
@@ -1571,11 +1570,12 @@ design rules under a new name.</description>
 <element name="S16" library="Mine" package="22-23-2021" value="TOGGLE_SPST" x="64.7192" y="132.461" smashed="yes" rot="R90">
 <attribute name="NAME" x="60.9092" y="129.921" size="1.016" layer="25" ratio="10" rot="R90"/>
 </element>
-<element name="X1" library="Mine" package="22-23-2041" value="22-23-2041" x="53.594" y="151.892" rot="R180">
+<element name="X1" library="Mine" package="22-23-2041" value="22-23-2041" x="53.594" y="151.892" smashed="yes" rot="R180">
 <attribute name="MF" value="MOLEX" x="53.594" y="151.892" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="38C0355" x="53.594" y="151.892" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="1462920" x="53.594" y="151.892" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="22-23-2041" x="53.594" y="151.892" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="58.674" y="148.082" size="1.016" layer="25" ratio="10" rot="R180"/>
 </element>
 <element name="X2" library="Mine" package="22-23-2041" value="22-23-2041" x="84.2772" y="136.017" smashed="yes" rot="R270">
 <attribute name="MF" value="MOLEX" x="84.2772" y="136.017" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1843,11 +1843,12 @@ design rules under a new name.</description>
 <attribute name="MPN" value="22-23-2021" x="48.054" y="27.812" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="24.94" y="25.272" size="1.016" layer="25" ratio="10" rot="R90"/>
 </element>
-<element name="X4" library="Mine" package="22-23-2041" value="22-23-2041" x="40.64" y="151.892" rot="R180">
+<element name="X4" library="Mine" package="22-23-2041" value="22-23-2041" x="40.64" y="151.892" smashed="yes" rot="R180">
 <attribute name="OC_NEWARK" value="38C0355" x="40.64" y="151.892" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="1462920" x="40.64" y="151.892" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="MOLEX" x="40.64" y="151.892" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="22-23-2041" x="40.64" y="151.892" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="45.72" y="148.082" size="1.016" layer="25" ratio="10" rot="R180"/>
 </element>
 <element name="TS1" library="Mine" package="SOT23-5L" value="TC74" x="76.9112" y="136.017" smashed="yes" rot="R90">
 <attribute name="NAME" x="74.2442" y="134.62" size="1.27" layer="25" rot="R90"/>

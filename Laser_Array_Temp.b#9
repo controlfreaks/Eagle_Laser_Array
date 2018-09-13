@@ -1624,13 +1624,18 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="38C0355" x="48.816" y="113.664" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="5.382" y="108.584" size="1.016" layer="25" ratio="10" rot="R90"/>
 </element>
-<element name="R7" library="rcl" package="M0805" value="4.7k" x="68.326" y="83.058"/>
-<element name="R8" library="rcl" package="M0805" value="4.7k" x="78.74" y="81.788"/>
-<element name="X7" library="Mine" package="22-23-2041" value="22-23-2041" x="73.66" y="91.694">
-<attribute name="MF" value="MOLEX" x="73.66" y="71.882" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="1462920" x="73.66" y="71.882" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="22-23-2041" x="73.66" y="71.882" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="38C0355" x="73.66" y="71.882" size="1.778" layer="27" display="off"/>
+<element name="R7" library="rcl" package="M0805" value="4.7k" x="76.9112" y="95.885" smashed="yes">
+<attribute name="NAME" x="75.8952" y="97.663" size="1.27" layer="25"/>
+</element>
+<element name="R8" library="rcl" package="M0805" value="4.7k" x="76.9112" y="86.741" smashed="yes">
+<attribute name="NAME" x="76.1492" y="83.947" size="1.27" layer="25"/>
+</element>
+<element name="X7" library="Mine" package="22-23-2041" value="22-23-2041" x="84.2772" y="91.313" smashed="yes" rot="R270">
+<attribute name="MF" value="MOLEX" x="64.4652" y="91.313" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="1462920" x="64.4652" y="91.313" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="22-23-2041" x="64.4652" y="91.313" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="38C0355" x="64.4652" y="91.313" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="88.0872" y="96.393" size="1.016" layer="25" ratio="10" rot="R270"/>
 </element>
 <element name="R9" library="rcl" package="M0805" value="4.7k" x="16.462" y="95.886" smashed="yes" rot="R180">
 <attribute name="NAME" x="17.732" y="94.616" size="1.27" layer="25" rot="R180"/>
@@ -1645,13 +1650,18 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="38C0355" x="29.004" y="91.312" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="5.382" y="86.232" size="1.016" layer="25" ratio="10" rot="R90"/>
 </element>
-<element name="R11" library="rcl" package="M0805" value="4.7k" x="92.964" y="66.04"/>
-<element name="R12" library="rcl" package="M0805" value="4.7k" x="102.362" y="65.786"/>
-<element name="X9" library="Mine" package="22-23-2041" value="22-23-2041" x="98.806" y="78.232">
-<attribute name="MF" value="MOLEX" x="75.946" y="23.368" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="1462920" x="75.946" y="23.368" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="22-23-2041" x="75.946" y="23.368" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="38C0355" x="75.946" y="23.368" size="1.778" layer="27" display="off"/>
+<element name="R11" library="rcl" package="M0805" value="4.7k" x="76.9112" y="73.533" smashed="yes">
+<attribute name="NAME" x="75.1332" y="75.057" size="1.27" layer="25"/>
+</element>
+<element name="R12" library="rcl" package="M0805" value="4.7k" x="76.9112" y="64.389" smashed="yes">
+<attribute name="NAME" x="75.3872" y="61.595" size="1.27" layer="25"/>
+</element>
+<element name="X9" library="Mine" package="22-23-2041" value="22-23-2041" x="84.2772" y="68.961" smashed="yes" rot="R270">
+<attribute name="MF" value="MOLEX" x="29.4132" y="91.821" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="1462920" x="29.4132" y="91.821" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="22-23-2041" x="29.4132" y="91.821" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="38C0355" x="29.4132" y="91.821" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="88.0872" y="74.041" size="1.016" layer="25" ratio="10" rot="R270"/>
 </element>
 <element name="R13" library="rcl" package="M0805" value="4.7k" x="16.716" y="73.534" smashed="yes" rot="R180">
 <attribute name="NAME" x="17.986" y="72.264" size="1.27" layer="25" rot="R180"/>
@@ -1666,13 +1676,18 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="38C0355" x="83.868" y="68.96" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="5.382" y="63.88" size="1.016" layer="25" ratio="10" rot="R90"/>
 </element>
-<element name="R18" library="rcl" package="M0805" value="4.7k" x="93.726" y="30.988"/>
-<element name="R19" library="rcl" package="M0805" value="4.7k" x="102.616" y="31.75"/>
-<element name="X11" library="Mine" package="22-23-2041" value="22-23-2041" x="96.52" y="41.148">
-<attribute name="MF" value="MOLEX" x="73.66" y="-68.58" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="1462920" x="73.66" y="-68.58" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="22-23-2041" x="73.66" y="-68.58" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="38C0355" x="73.66" y="-68.58" size="1.778" layer="27" display="off"/>
+<element name="R18" library="rcl" package="M0805" value="4.7k" x="76.9112" y="51.181" smashed="yes">
+<attribute name="NAME" x="75.3872" y="52.705" size="1.27" layer="25"/>
+</element>
+<element name="R19" library="rcl" package="M0805" value="4.7k" x="76.9112" y="42.037" smashed="yes">
+<attribute name="NAME" x="75.3872" y="39.243" size="1.27" layer="25"/>
+</element>
+<element name="X11" library="Mine" package="22-23-2041" value="22-23-2041" x="84.2772" y="46.609" smashed="yes" rot="R270">
+<attribute name="MF" value="MOLEX" x="-25.4508" y="69.469" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="1462920" x="-25.4508" y="69.469" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="22-23-2041" x="-25.4508" y="69.469" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="38C0355" x="-25.4508" y="69.469" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="88.0872" y="51.689" size="1.016" layer="25" ratio="10" rot="R270"/>
 </element>
 <element name="R20" library="rcl" package="M0805" value="4.7k" x="16.462" y="51.182" smashed="yes" rot="R180">
 <attribute name="NAME" x="17.732" y="49.912" size="1.27" layer="25" rot="R180"/>
@@ -1687,13 +1702,18 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="38C0355" x="138.732" y="46.608" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="5.382" y="41.528" size="1.016" layer="25" ratio="10" rot="R90"/>
 </element>
-<element name="R23" library="rcl" package="M0805" value="4.7k" x="90.678" y="-8.128"/>
-<element name="R24" library="rcl" package="M0805" value="4.7k" x="102.87" y="-7.874"/>
-<element name="X13" library="Mine" package="22-23-2041" value="22-23-2041" x="96.52" y="3.81">
-<attribute name="MF" value="MOLEX" x="96.52" y="-16.256" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="1462920" x="96.52" y="-16.256" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="22-23-2041" x="96.52" y="-16.256" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="38C0355" x="96.52" y="-16.256" size="1.778" layer="27" display="off"/>
+<element name="R23" library="rcl" package="M0805" value="4.7k" x="76.9112" y="28.829" smashed="yes">
+<attribute name="NAME" x="75.3872" y="30.353" size="1.27" layer="25"/>
+</element>
+<element name="R24" library="rcl" package="M0805" value="4.7k" x="76.9112" y="19.685" smashed="yes">
+<attribute name="NAME" x="75.6412" y="16.891" size="1.27" layer="25"/>
+</element>
+<element name="X13" library="Mine" package="22-23-2041" value="22-23-2041" x="84.2772" y="24.257" smashed="yes" rot="R270">
+<attribute name="MF" value="MOLEX" x="64.2112" y="24.257" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="1462920" x="64.2112" y="24.257" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="22-23-2041" x="64.2112" y="24.257" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="38C0355" x="64.2112" y="24.257" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="88.0872" y="29.337" size="1.016" layer="25" ratio="10" rot="R270"/>
 </element>
 <element name="R25" library="rcl" package="M0805" value="4.7k" x="16.462" y="28.83" smashed="yes" rot="R180">
 <attribute name="NAME" x="17.732" y="27.56" size="1.27" layer="25" rot="R180"/>
@@ -1737,12 +1757,15 @@ design rules under a new name.</description>
 <attribute name="MPN" value="22-23-2021" x="48.054" y="117.22" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="24.94" y="114.68" size="1.016" layer="25" ratio="10" rot="R90"/>
 </element>
-<element name="S17" library="Mine" package="22-23-2021" value="TOGGLE_SPST" x="82.296" y="91.694"/>
-<element name="J5" library="Mine" package="22-23-2021" value="22-23-2021" x="62.992" y="91.948">
-<attribute name="OC_NEWARK" value="25C3832" x="62.992" y="72.644" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="1462926" x="62.992" y="72.644" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="MOLEX" x="62.992" y="72.644" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="22-23-2021" x="62.992" y="72.644" size="1.778" layer="27" display="off"/>
+<element name="S17" library="Mine" package="22-23-2021" value="TOGGLE_SPST" x="64.7192" y="87.757" smashed="yes" rot="R270">
+<attribute name="NAME" x="68.5292" y="90.297" size="1.016" layer="25" ratio="10" rot="R270"/>
+</element>
+<element name="J5" library="Mine" package="22-23-2021" value="22-23-2021" x="64.7192" y="94.869" smashed="yes" rot="R270">
+<attribute name="OC_NEWARK" value="25C3832" x="45.4152" y="94.869" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="1462926" x="45.4152" y="94.869" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="MOLEX" x="45.4152" y="94.869" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="22-23-2021" x="45.4152" y="94.869" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="68.5292" y="97.409" size="1.016" layer="25" ratio="10" rot="R270"/>
 </element>
 <element name="S18" library="Mine" package="22-23-2021" value="TOGGLE_SPST" x="28.75" y="87.756" smashed="yes" rot="R90">
 <attribute name="NAME" x="24.94" y="85.216" size="1.016" layer="25" ratio="10" rot="R90"/>
@@ -1754,12 +1777,15 @@ design rules under a new name.</description>
 <attribute name="MPN" value="22-23-2021" x="48.054" y="94.868" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="24.94" y="92.328" size="1.016" layer="25" ratio="10" rot="R90"/>
 </element>
-<element name="S19" library="Mine" package="22-23-2021" value="TOGGLE_SPST" x="107.442" y="78.232"/>
-<element name="J7" library="Mine" package="22-23-2021" value="22-23-2021" x="89.916" y="77.978">
-<attribute name="OC_NEWARK" value="25C3832" x="89.916" y="58.674" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="1462926" x="89.916" y="58.674" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="MOLEX" x="89.916" y="58.674" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="22-23-2021" x="89.916" y="58.674" size="1.778" layer="27" display="off"/>
+<element name="S19" library="Mine" package="22-23-2021" value="TOGGLE_SPST" x="64.7192" y="65.405" smashed="yes" rot="R270">
+<attribute name="NAME" x="68.5292" y="67.945" size="1.016" layer="25" ratio="10" rot="R270"/>
+</element>
+<element name="J7" library="Mine" package="22-23-2021" value="22-23-2021" x="64.7192" y="72.517" smashed="yes" rot="R270">
+<attribute name="OC_NEWARK" value="25C3832" x="45.4152" y="72.517" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="1462926" x="45.4152" y="72.517" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="MOLEX" x="45.4152" y="72.517" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="22-23-2021" x="45.4152" y="72.517" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="68.5292" y="75.057" size="1.016" layer="25" ratio="10" rot="R270"/>
 </element>
 <element name="S20" library="Mine" package="22-23-2021" value="TOGGLE_SPST" x="28.75" y="65.404" smashed="yes" rot="R90">
 <attribute name="NAME" x="24.94" y="62.864" size="1.016" layer="25" ratio="10" rot="R90"/>
@@ -1771,12 +1797,15 @@ design rules under a new name.</description>
 <attribute name="MPN" value="22-23-2021" x="48.054" y="72.516" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="24.94" y="69.976" size="1.016" layer="25" ratio="10" rot="R90"/>
 </element>
-<element name="S21" library="Mine" package="22-23-2021" value="TOGGLE_SPST" x="105.918" y="41.402"/>
-<element name="J9" library="Mine" package="22-23-2021" value="22-23-2021" x="87.63" y="41.148">
-<attribute name="OC_NEWARK" value="25C3832" x="87.63" y="21.844" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="1462926" x="87.63" y="21.844" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="MOLEX" x="87.63" y="21.844" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="22-23-2021" x="87.63" y="21.844" size="1.778" layer="27" display="off"/>
+<element name="S21" library="Mine" package="22-23-2021" value="TOGGLE_SPST" x="64.7192" y="43.053" smashed="yes" rot="R270">
+<attribute name="NAME" x="68.5292" y="45.593" size="1.016" layer="25" ratio="10" rot="R270"/>
+</element>
+<element name="J9" library="Mine" package="22-23-2021" value="22-23-2021" x="64.7192" y="50.165" smashed="yes" rot="R270">
+<attribute name="OC_NEWARK" value="25C3832" x="45.4152" y="50.165" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="1462926" x="45.4152" y="50.165" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="MOLEX" x="45.4152" y="50.165" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="22-23-2021" x="45.4152" y="50.165" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="68.5292" y="52.705" size="1.016" layer="25" ratio="10" rot="R270"/>
 </element>
 <element name="S22" library="Mine" package="22-23-2021" value="TOGGLE_SPST" x="28.75" y="43.052" smashed="yes" rot="R90">
 <attribute name="NAME" x="24.94" y="40.512" size="1.016" layer="25" ratio="10" rot="R90"/>
@@ -1788,12 +1817,15 @@ design rules under a new name.</description>
 <attribute name="MPN" value="22-23-2021" x="48.054" y="50.164" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="24.94" y="47.624" size="1.016" layer="25" ratio="10" rot="R90"/>
 </element>
-<element name="S23" library="Mine" package="22-23-2021" value="TOGGLE_SPST" x="104.902" y="3.81"/>
-<element name="J11" library="Mine" package="22-23-2021" value="22-23-2021" x="86.868" y="4.064">
-<attribute name="OC_NEWARK" value="25C3832" x="86.868" y="-15.24" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="1462926" x="86.868" y="-15.24" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="MOLEX" x="86.868" y="-15.24" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="22-23-2021" x="86.868" y="-15.24" size="1.778" layer="27" display="off"/>
+<element name="S23" library="Mine" package="22-23-2021" value="TOGGLE_SPST" x="64.7192" y="20.701" smashed="yes" rot="R270">
+<attribute name="NAME" x="68.5292" y="23.241" size="1.016" layer="25" ratio="10" rot="R270"/>
+</element>
+<element name="J11" library="Mine" package="22-23-2021" value="22-23-2021" x="64.7192" y="27.813" smashed="yes" rot="R270">
+<attribute name="OC_NEWARK" value="25C3832" x="45.4152" y="27.813" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="1462926" x="45.4152" y="27.813" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="MOLEX" x="45.4152" y="27.813" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="22-23-2021" x="45.4152" y="27.813" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="68.5292" y="30.353" size="1.016" layer="25" ratio="10" rot="R270"/>
 </element>
 <element name="S24" library="Mine" package="22-23-2021" value="TOGGLE_SPST" x="28.75" y="20.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="24.94" y="18.16" size="1.016" layer="25" ratio="10" rot="R90"/>
@@ -1819,24 +1851,31 @@ design rules under a new name.</description>
 </element>
 <element name="TS3" library="Mine" package="SOT23-5L" value="TC74" x="76.9112" y="113.665" smashed="yes" rot="R90">
 <attribute name="NAME" x="75.0062" y="111.76" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="80.3402" y="111.76" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="TS4" library="Mine" package="SOT23-5L" value="TC74" x="16.558" y="113.664" smashed="yes" rot="R270">
 <attribute name="NAME" x="18.463" y="115.569" size="1.27" layer="25" rot="R270"/>
 </element>
-<element name="TS5" library="Mine" package="SOT23-5L" value="TC74" x="74.168" y="82.296"/>
+<element name="TS5" library="Mine" package="SOT23-5L" value="TC74" x="76.9112" y="91.313" smashed="yes" rot="R90">
+<attribute name="NAME" x="75.0062" y="89.408" size="1.27" layer="25" rot="R90"/>
+</element>
 <element name="TS6" library="Mine" package="SOT23-5L" value="TC74" x="16.558" y="91.312" smashed="yes" rot="R270">
 <attribute name="NAME" x="18.463" y="93.217" size="1.27" layer="25" rot="R270"/>
 </element>
-<element name="TS7" library="Mine" package="SOT23-5L" value="TC74" x="98.298" y="66.04"/>
+<element name="TS7" library="Mine" package="SOT23-5L" value="TC74" x="76.9112" y="68.961" smashed="yes" rot="R90">
+<attribute name="NAME" x="74.4982" y="67.818" size="1.27" layer="25" rot="R90"/>
+</element>
 <element name="TS8" library="Mine" package="SOT23-5L" value="TC74" x="16.558" y="68.96" smashed="yes" rot="R270">
 <attribute name="NAME" x="18.463" y="70.865" size="1.27" layer="25" rot="R270"/>
 </element>
-<element name="TS9" library="Mine" package="SOT23-5L" value="TC74" x="97.536" y="31.496"/>
+<element name="TS9" library="Mine" package="SOT23-5L" value="TC74" x="76.9112" y="46.609" smashed="yes" rot="R90">
+<attribute name="NAME" x="74.2442" y="44.958" size="1.27" layer="25" rot="R90"/>
+</element>
 <element name="TS10" library="Mine" package="SOT23-5L" value="TC74" x="16.558" y="46.608" smashed="yes" rot="R270">
 <attribute name="NAME" x="18.463" y="48.513" size="1.27" layer="25" rot="R270"/>
 </element>
-<element name="TS11" library="Mine" package="SOT23-5L" value="TC74" x="96.52" y="-7.112"/>
+<element name="TS11" library="Mine" package="SOT23-5L" value="TC74" x="76.9112" y="24.257" smashed="yes" rot="R90">
+<attribute name="NAME" x="74.4982" y="21.844" size="1.27" layer="25" rot="R90"/>
+</element>
 <element name="TS12" library="Mine" package="SOT23-5L" value="TC74" x="16.558" y="24.256" smashed="yes" rot="R270">
 <attribute name="NAME" x="18.463" y="26.161" size="1.27" layer="25" rot="R270"/>
 </element>
@@ -1964,6 +2003,14 @@ design rules under a new name.</description>
 <wire x1="75.9612" y1="131.445" x2="75.9612" y2="140.589" width="0" layer="19" extent="1-1"/>
 <wire x1="75.9612" y1="118.237" x2="75.9612" y2="131.445" width="0" layer="19" extent="1-1"/>
 <wire x1="75.9612" y1="109.093" x2="75.9612" y2="118.237" width="0" layer="19" extent="1-1"/>
+<wire x1="75.9612" y1="95.885" x2="75.9612" y2="109.093" width="0" layer="19" extent="1-1"/>
+<wire x1="75.9612" y1="86.741" x2="75.9612" y2="95.885" width="0" layer="19" extent="1-1"/>
+<wire x1="75.9612" y1="73.533" x2="75.9612" y2="86.741" width="0" layer="19" extent="1-1"/>
+<wire x1="75.9612" y1="64.389" x2="75.9612" y2="73.533" width="0" layer="19" extent="1-1"/>
+<wire x1="75.9612" y1="51.181" x2="75.9612" y2="64.389" width="0" layer="19" extent="1-1"/>
+<wire x1="75.9612" y1="42.037" x2="75.9612" y2="51.181" width="0" layer="19" extent="1-1"/>
+<wire x1="75.9612" y1="28.829" x2="75.9612" y2="42.037" width="0" layer="19" extent="1-1"/>
+<wire x1="75.9612" y1="19.685" x2="75.9612" y2="28.829" width="0" layer="19" extent="1-1"/>
 <wire x1="57.404" y1="146.05" x2="75.9612" y2="140.589" width="0" layer="19" extent="1-1"/>
 <wire x1="43.12" y1="38.227" x2="22.098" y2="42.926" width="0" layer="19" extent="1-1"/>
 <wire x1="48.32" y1="39.497" x2="43.12" y2="38.227" width="0" layer="19" extent="1-1"/>
@@ -1973,14 +2020,6 @@ design rules under a new name.</description>
 <wire x1="47.48" y1="86.994" x2="44.136" y2="83.947" width="0" layer="19" extent="1-1"/>
 <wire x1="47.638" y1="90.298" x2="47.48" y2="86.994" width="0" layer="19" extent="1-1"/>
 <wire x1="49.336" y1="83.947" x2="47.48" y2="86.994" width="0" layer="19" extent="1-1"/>
-<wire x1="67.376" y1="83.058" x2="49.336" y2="83.947" width="0" layer="19" extent="1-1"/>
-<wire x1="77.79" y1="81.788" x2="67.376" y2="83.058" width="0" layer="19" extent="1-1"/>
-<wire x1="92.014" y1="66.04" x2="77.79" y2="81.788" width="0" layer="19" extent="1-1"/>
-<wire x1="101.412" y1="65.786" x2="92.014" y2="66.04" width="0" layer="19" extent="1-1"/>
-<wire x1="101.666" y1="31.75" x2="101.412" y2="65.786" width="0" layer="19" extent="1-1"/>
-<wire x1="92.776" y1="30.988" x2="101.666" y2="31.75" width="0" layer="19" extent="1-1"/>
-<wire x1="89.728" y1="-8.128" x2="92.776" y2="30.988" width="0" layer="19" extent="1-1"/>
-<wire x1="101.92" y1="-7.874" x2="89.728" y2="-8.128" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="C21" pad="2"/>
@@ -2045,7 +2084,6 @@ design rules under a new name.</description>
 <contactref element="U3" pad="13"/>
 <contactref element="U3" pad="8"/>
 <contactref element="C2" pad="2"/>
-<wire x1="95.25" y1="3.81" x2="96.52" y2="-8.412" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="!RESET">
 <contactref element="R15" pad="2"/>
@@ -2167,15 +2205,15 @@ design rules under a new name.</description>
 <wire x1="78.2112" y1="136.967" x2="84.2772" y2="139.827" width="0" layer="19" extent="1-1"/>
 <wire x1="84.2772" y1="117.475" x2="78.2112" y2="136.967" width="0" layer="19" extent="1-1"/>
 <wire x1="78.2112" y1="114.615" x2="84.2772" y2="117.475" width="0" layer="19" extent="1-1"/>
-<wire x1="69.85" y1="91.694" x2="78.2112" y2="114.615" width="0" layer="19" extent="1-1"/>
-<wire x1="75.118" y1="80.996" x2="69.85" y2="91.694" width="0" layer="19" extent="1-1"/>
-<wire x1="94.996" y1="78.232" x2="75.118" y2="80.996" width="0" layer="19" extent="1-1"/>
-<wire x1="99.248" y1="64.74" x2="94.996" y2="78.232" width="0" layer="19" extent="1-1"/>
-<wire x1="92.71" y1="41.148" x2="99.248" y2="64.74" width="0" layer="19" extent="1-1"/>
-<wire x1="98.486" y1="30.196" x2="92.71" y2="41.148" width="0" layer="19" extent="1-1"/>
+<wire x1="84.2772" y1="95.123" x2="78.2112" y2="114.615" width="0" layer="19" extent="1-1"/>
+<wire x1="78.2112" y1="92.263" x2="84.2772" y2="95.123" width="0" layer="19" extent="1-1"/>
+<wire x1="84.2772" y1="72.771" x2="78.2112" y2="92.263" width="0" layer="19" extent="1-1"/>
+<wire x1="78.2112" y1="69.911" x2="84.2772" y2="72.771" width="0" layer="19" extent="1-1"/>
+<wire x1="84.2772" y1="50.419" x2="78.2112" y2="69.911" width="0" layer="19" extent="1-1"/>
+<wire x1="78.2112" y1="47.559" x2="84.2772" y2="50.419" width="0" layer="19" extent="1-1"/>
+<wire x1="84.2772" y1="28.067" x2="78.2112" y2="47.559" width="0" layer="19" extent="1-1"/>
+<wire x1="78.2112" y1="25.207" x2="84.2772" y2="28.067" width="0" layer="19" extent="1-1"/>
 <wire x1="54.864" y1="147.574" x2="78.2112" y2="136.967" width="0" layer="19" extent="1-1"/>
-<wire x1="92.71" y1="3.81" x2="98.486" y2="30.196" width="0" layer="19" extent="1-1"/>
-<wire x1="97.47" y1="-8.412" x2="92.71" y2="3.81" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SD0">
 <contactref element="R16" pad="2"/>
@@ -2328,18 +2366,18 @@ design rules under a new name.</description>
 <contactref element="X7" pad="3"/>
 <contactref element="TS5" pad="5"/>
 <contactref element="U2" pad="4"/>
-<wire x1="73.218" y1="83.596" x2="74.93" y2="91.694" width="0" layer="19" extent="1-1"/>
-<wire x1="69.276" y1="83.058" x2="73.218" y2="83.596" width="0" layer="19" extent="1-1"/>
-<wire x1="44.136" y1="80.137" x2="69.276" y2="83.058" width="0" layer="19" extent="1-1"/>
+<wire x1="77.8612" y1="95.885" x2="84.2772" y2="90.043" width="0" layer="19" extent="1-1"/>
+<wire x1="75.6112" y1="90.363" x2="77.8612" y2="95.885" width="0" layer="19" extent="1-1"/>
+<wire x1="44.136" y1="80.137" x2="75.6112" y2="90.363" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SC4">
 <contactref element="R8" pad="2"/>
 <contactref element="X7" pad="4"/>
 <contactref element="TS5" pad="4"/>
 <contactref element="U2" pad="5"/>
-<wire x1="75.118" y1="83.596" x2="77.47" y2="91.694" width="0" layer="19" extent="1-1"/>
-<wire x1="79.69" y1="81.788" x2="75.118" y2="83.596" width="0" layer="19" extent="1-1"/>
-<wire x1="44.136" y1="78.867" x2="75.118" y2="83.596" width="0" layer="19" extent="1-1"/>
+<wire x1="77.8612" y1="86.741" x2="84.2772" y2="87.503" width="0" layer="19" extent="1-1"/>
+<wire x1="75.6112" y1="92.263" x2="77.8612" y2="86.741" width="0" layer="19" extent="1-1"/>
+<wire x1="44.136" y1="78.867" x2="75.6112" y2="92.263" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SD5">
 <contactref element="R9" pad="2"/>
@@ -2394,18 +2432,18 @@ design rules under a new name.</description>
 <contactref element="X9" pad="3"/>
 <contactref element="TS7" pad="5"/>
 <contactref element="U2" pad="9"/>
-<wire x1="97.348" y1="67.34" x2="100.076" y2="78.232" width="0" layer="19" extent="1-1"/>
-<wire x1="93.914" y1="66.04" x2="97.348" y2="67.34" width="0" layer="19" extent="1-1"/>
-<wire x1="49.336" y1="75.057" x2="93.914" y2="66.04" width="0" layer="19" extent="1-1"/>
+<wire x1="77.8612" y1="73.533" x2="84.2772" y2="67.691" width="0" layer="19" extent="1-1"/>
+<wire x1="75.6112" y1="68.011" x2="77.8612" y2="73.533" width="0" layer="19" extent="1-1"/>
+<wire x1="49.336" y1="75.057" x2="75.6112" y2="68.011" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SC6">
 <contactref element="R12" pad="2"/>
 <contactref element="X9" pad="4"/>
 <contactref element="TS7" pad="4"/>
 <contactref element="U2" pad="10"/>
-<wire x1="99.248" y1="67.34" x2="102.616" y2="78.232" width="0" layer="19" extent="1-1"/>
-<wire x1="103.312" y1="65.786" x2="99.248" y2="67.34" width="0" layer="19" extent="1-1"/>
-<wire x1="49.336" y1="76.327" x2="99.248" y2="67.34" width="0" layer="19" extent="1-1"/>
+<wire x1="77.8612" y1="64.389" x2="84.2772" y2="65.151" width="0" layer="19" extent="1-1"/>
+<wire x1="75.6112" y1="69.911" x2="77.8612" y2="64.389" width="0" layer="19" extent="1-1"/>
+<wire x1="49.336" y1="76.327" x2="75.6112" y2="69.911" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SD7">
 <contactref element="R13" pad="2"/>
@@ -2461,18 +2499,18 @@ design rules under a new name.</description>
 <contactref element="X11" pad="3"/>
 <contactref element="TS9" pad="5"/>
 <contactref element="U3" pad="4"/>
-<wire x1="96.586" y1="32.796" x2="97.79" y2="41.148" width="0" layer="19" extent="1-1"/>
-<wire x1="94.676" y1="30.988" x2="96.586" y2="32.796" width="0" layer="19" extent="1-1"/>
-<wire x1="43.12" y1="35.687" x2="94.676" y2="30.988" width="0" layer="19" extent="1-1"/>
+<wire x1="75.6112" y1="45.659" x2="77.8612" y2="51.181" width="0" layer="19" extent="1-1"/>
+<wire x1="84.2772" y1="45.339" x2="77.8612" y2="51.181" width="0" layer="19" extent="1-1"/>
+<wire x1="43.12" y1="35.687" x2="75.6112" y2="45.659" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SC8">
 <contactref element="R19" pad="2"/>
 <contactref element="X11" pad="4"/>
 <contactref element="TS9" pad="4"/>
 <contactref element="U3" pad="5"/>
-<wire x1="98.486" y1="32.796" x2="100.33" y2="41.148" width="0" layer="19" extent="1-1"/>
-<wire x1="103.566" y1="31.75" x2="98.486" y2="32.796" width="0" layer="19" extent="1-1"/>
-<wire x1="43.12" y1="34.417" x2="98.486" y2="32.796" width="0" layer="19" extent="1-1"/>
+<wire x1="77.8612" y1="42.037" x2="84.2772" y2="42.799" width="0" layer="19" extent="1-1"/>
+<wire x1="75.6112" y1="47.559" x2="77.8612" y2="42.037" width="0" layer="19" extent="1-1"/>
+<wire x1="43.12" y1="34.417" x2="75.6112" y2="47.559" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SD9">
 <contactref element="R20" pad="2"/>
@@ -2526,18 +2564,18 @@ design rules under a new name.</description>
 <contactref element="X13" pad="3"/>
 <contactref element="TS11" pad="5"/>
 <contactref element="U3" pad="9"/>
-<wire x1="95.57" y1="-5.812" x2="97.79" y2="3.81" width="0" layer="19" extent="1-1"/>
-<wire x1="91.628" y1="-8.128" x2="95.57" y2="-5.812" width="0" layer="19" extent="1-1"/>
-<wire x1="48.32" y1="30.607" x2="97.79" y2="3.81" width="0" layer="19" extent="1-1"/>
+<wire x1="77.8612" y1="28.829" x2="84.2772" y2="22.987" width="0" layer="19" extent="1-1"/>
+<wire x1="75.6112" y1="23.307" x2="77.8612" y2="28.829" width="0" layer="19" extent="1-1"/>
+<wire x1="48.32" y1="30.607" x2="75.6112" y2="23.307" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SC10">
 <contactref element="R24" pad="2"/>
 <contactref element="X13" pad="4"/>
 <contactref element="TS11" pad="4"/>
 <contactref element="U3" pad="10"/>
-<wire x1="97.47" y1="-5.812" x2="100.33" y2="3.81" width="0" layer="19" extent="1-1"/>
-<wire x1="103.82" y1="-7.874" x2="97.47" y2="-5.812" width="0" layer="19" extent="1-1"/>
-<wire x1="48.32" y1="31.877" x2="100.33" y2="3.81" width="0" layer="19" extent="1-1"/>
+<wire x1="77.8612" y1="19.685" x2="84.2772" y2="20.447" width="0" layer="19" extent="1-1"/>
+<wire x1="75.6112" y1="25.207" x2="77.8612" y2="19.685" width="0" layer="19" extent="1-1"/>
+<wire x1="48.32" y1="31.877" x2="75.6112" y2="25.207" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SD11">
 <contactref element="R25" pad="2"/>
@@ -2652,7 +2690,7 @@ design rules under a new name.</description>
 <signal name="N$5">
 <contactref element="J5" pad="1"/>
 <contactref element="S17" pad="1"/>
-<wire x1="61.722" y1="91.948" x2="81.026" y2="91.694" width="0" layer="19" extent="1-1"/>
+<wire x1="64.7192" y1="89.027" x2="64.7192" y2="96.139" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
 <contactref element="J6" pad="1"/>
@@ -2666,7 +2704,7 @@ design rules under a new name.</description>
 <signal name="N$7">
 <contactref element="J7" pad="1"/>
 <contactref element="S19" pad="1"/>
-<wire x1="88.646" y1="77.978" x2="106.172" y2="78.232" width="0" layer="19" extent="1-1"/>
+<wire x1="64.7192" y1="66.675" x2="64.7192" y2="73.787" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
 <contactref element="J8" pad="1"/>
@@ -2680,7 +2718,7 @@ design rules under a new name.</description>
 <signal name="N$9">
 <contactref element="J9" pad="1"/>
 <contactref element="S21" pad="1"/>
-<wire x1="86.36" y1="41.148" x2="104.648" y2="41.402" width="0" layer="19" extent="1-1"/>
+<wire x1="64.7192" y1="44.323" x2="64.7192" y2="51.435" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$10">
 <contactref element="J10" pad="1"/>
@@ -2694,7 +2732,7 @@ design rules under a new name.</description>
 <signal name="N$11">
 <contactref element="J11" pad="1"/>
 <contactref element="S23" pad="1"/>
-<wire x1="85.598" y1="4.064" x2="103.632" y2="3.81" width="0" layer="19" extent="1-1"/>
+<wire x1="64.7192" y1="21.971" x2="64.7192" y2="29.083" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$12">
 <contactref element="J12" pad="1"/>
@@ -2752,11 +2790,11 @@ design rules under a new name.</description>
 <wire x1="32.766" y1="23.368" x2="31.368" y2="21.97" width="0.6096" layer="1"/>
 <wire x1="31.368" y1="21.97" x2="28.75" y2="21.97" width="0.6096" layer="1"/>
 <wire x1="64.7192" y1="108.839" x2="64.7192" y2="131.191" width="0" layer="19" extent="1-1"/>
+<wire x1="64.7192" y1="86.487" x2="64.7192" y2="108.839" width="0" layer="19" extent="1-1"/>
+<wire x1="64.7192" y1="64.135" x2="64.7192" y2="86.487" width="0" layer="19" extent="1-1"/>
+<wire x1="64.7192" y1="41.783" x2="64.7192" y2="64.135" width="0" layer="19" extent="1-1"/>
+<wire x1="64.7192" y1="19.431" x2="64.7192" y2="41.783" width="0" layer="19" extent="1-1"/>
 <wire x1="62.992" y1="156.21" x2="64.7192" y2="131.191" width="0" layer="19" extent="1-1"/>
-<wire x1="83.566" y1="91.694" x2="64.7192" y2="108.839" width="0" layer="19" extent="1-1"/>
-<wire x1="108.712" y1="78.232" x2="83.566" y2="91.694" width="0" layer="19" extent="1-1"/>
-<wire x1="107.188" y1="41.402" x2="108.712" y2="78.232" width="0" layer="19" extent="1-1"/>
-<wire x1="106.172" y1="3.81" x2="107.188" y2="41.402" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
