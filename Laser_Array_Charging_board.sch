@@ -5933,6 +5933,22 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <text x="1.73" y="-2.178" size="1.016" layer="21" font="vector">A</text>
 <text x="-2.938" y="-2.178" size="1.016" layer="21" font="vector">K</text>
 </package>
+<package name="22-23-2041">
+<description>.100" (2.54mm) Center Header - 4 Pin</description>
+<wire x1="-5.08" y1="3.175" x2="5.08" y2="3.175" width="0.254" layer="21"/>
+<wire x1="5.08" y1="3.175" x2="5.08" y2="1.27" width="0.254" layer="21"/>
+<wire x1="5.08" y1="1.27" x2="5.08" y2="-3.175" width="0.254" layer="21"/>
+<wire x1="5.08" y1="-3.175" x2="-5.08" y2="-3.175" width="0.254" layer="21"/>
+<wire x1="-5.08" y1="-3.175" x2="-5.08" y2="1.27" width="0.254" layer="21"/>
+<wire x1="-5.08" y1="1.27" x2="-5.08" y2="3.175" width="0.254" layer="21"/>
+<wire x1="-5.08" y1="1.27" x2="5.08" y2="1.27" width="0.254" layer="21"/>
+<pad name="1" x="-3.81" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="2" x="-1.27" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="3" x="1.27" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="4" x="3.81" y="0" drill="1" shape="long" rot="R90"/>
+<text x="-5.08" y="3.81" size="1.016" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="FRAME_B_L">
@@ -8093,6 +8109,33 @@ Source: http://www.osram.convergy.de/</description>
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="22-23-2041" prefix="X">
+<description>.100" (2.54mm) Center Header - 4 Pin</description>
+<gates>
+<gate name="-1" symbol="MV" x="0" y="2.54" addlevel="always" swaplevel="1"/>
+<gate name="-2" symbol="M" x="0" y="0" addlevel="always" swaplevel="1"/>
+<gate name="-3" symbol="M" x="0" y="-2.54" addlevel="always" swaplevel="1"/>
+<gate name="-4" symbol="M" x="0" y="-5.08" addlevel="always" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="22-23-2041">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+<connect gate="-3" pin="S" pad="3"/>
+<connect gate="-4" pin="S" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="MOLEX" constant="no"/>
+<attribute name="MPN" value="22-23-2041" constant="no"/>
+<attribute name="OC_FARNELL" value="1462920" constant="no"/>
+<attribute name="OC_NEWARK" value="38C0355" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -11643,70 +11686,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <description>&lt;b&gt;Phoenix Connectors&lt;/b&gt; Grid 3.50 mm&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="1751264">
-<description>&lt;b&gt;MKDS 1/ 4-3,5&lt;/b&gt; Printklemme&lt;p&gt;
-Nennstrom: 10 A&lt;br&gt;
-Bemessungsspannung: 160 V&lt;br&gt;
-Raster: 3,5 mm&lt;br&gt;
-Polzahl: 4&lt;br&gt;
-Montageart: Löten&lt;br&gt;
-Anschlussart: Schraubanschluss&lt;br&gt;
-Anschlussrichtung vom Leiter zur Platine: 0°&lt;br&gt;
-Source: http://eshop.phoenixcontact.com .. 1751264.pdf</description>
-<wire x1="-7.25" y1="3.65" x2="7.25" y2="3.65" width="0.1016" layer="21"/>
-<wire x1="-7.25" y1="3.65" x2="-7.25" y2="1.9123" width="0.1016" layer="21"/>
-<wire x1="7.25" y1="-2.0993" x2="-7.25" y2="-2.0993" width="0.1016" layer="21"/>
-<wire x1="7.25" y1="-1.6163" x2="7.25" y2="1.4367" width="0.1016" layer="21"/>
-<wire x1="7.25" y1="-2.0993" x2="7.25" y2="-2.911" width="0.1016" layer="21"/>
-<wire x1="7.25" y1="-1.6163" x2="7.25" y2="-2.0993" width="0.1016" layer="21"/>
-<wire x1="-7.25" y1="1.9123" x2="-7.25" y2="1.4367" width="0.1016" layer="21"/>
-<wire x1="-7.25" y1="1.9123" x2="7.25" y2="1.9123" width="0.1016" layer="21"/>
-<wire x1="7.25" y1="1.4367" x2="7.25" y2="1.9123" width="0.1016" layer="21"/>
-<wire x1="-7.25" y1="-1.6163" x2="-7.25" y2="1.4367" width="0.1016" layer="21"/>
-<wire x1="7.25" y1="1.4367" x2="-7.25" y2="1.4367" width="0.1016" layer="21"/>
-<wire x1="-7.25" y1="-1.6163" x2="7.25" y2="-1.6163" width="0.1016" layer="21"/>
-<wire x1="7.25" y1="3.65" x2="7.25" y2="1.9123" width="0.1016" layer="21"/>
-<wire x1="-7.25" y1="-1.6163" x2="-7.25" y2="-2.0993" width="0.1016" layer="21"/>
-<wire x1="-7.25" y1="-2.0993" x2="-7.25" y2="-2.911" width="0.1016" layer="21"/>
-<wire x1="-6.456" y1="-0.811" x2="-4.539" y2="1.106" width="0.1016" layer="51"/>
-<wire x1="7.25" y1="-2.911" x2="-7.25" y2="-2.911" width="0.1016" layer="21"/>
-<wire x1="-7.25" y1="-3.65" x2="7.25" y2="-3.65" width="0.1016" layer="21"/>
-<wire x1="7.25" y1="-3.35" x2="7.25" y2="-3.65" width="0.1016" layer="21"/>
-<wire x1="-7.25" y1="-3.35" x2="7.25" y2="-3.35" width="0.1016" layer="21"/>
-<wire x1="-7.25" y1="-3.35" x2="-7.25" y2="-3.65" width="0.1016" layer="21"/>
-<wire x1="-7.25" y1="-2.911" x2="-7.25" y2="-3.35" width="0.1016" layer="21"/>
-<wire x1="7.25" y1="-2.911" x2="7.25" y2="-3.35" width="0.1016" layer="21"/>
-<wire x1="-4.044" y1="0.611" x2="-4.05" y2="0.605" width="0.1016" layer="21"/>
-<wire x1="-4.05" y1="0.605" x2="-5.961" y2="-1.306" width="0.1016" layer="51"/>
-<wire x1="-2.956" y1="-0.811" x2="-1.039" y2="1.106" width="0.1016" layer="51"/>
-<wire x1="-0.544" y1="0.611" x2="-0.55" y2="0.605" width="0.1016" layer="21"/>
-<wire x1="-0.55" y1="0.605" x2="-2.461" y2="-1.306" width="0.1016" layer="51"/>
-<wire x1="0.544" y1="-0.811" x2="2.461" y2="1.106" width="0.1016" layer="51"/>
-<wire x1="2.956" y1="0.611" x2="2.95" y2="0.605" width="0.1016" layer="21"/>
-<wire x1="2.95" y1="0.605" x2="1.039" y2="-1.306" width="0.1016" layer="51"/>
-<wire x1="4.044" y1="-0.811" x2="5.961" y2="1.106" width="0.1016" layer="51"/>
-<wire x1="6.456" y1="0.611" x2="6.45" y2="0.605" width="0.1016" layer="21"/>
-<wire x1="6.45" y1="0.605" x2="4.539" y2="-1.306" width="0.1016" layer="51"/>
-<circle x="-5.25" y="-0.1" radius="1.45" width="0.1016" layer="21"/>
-<circle x="-1.75" y="-0.1" radius="1.45" width="0.1016" layer="21"/>
-<circle x="1.75" y="-0.1" radius="1.45" width="0.1016" layer="21"/>
-<circle x="5.25" y="-0.1" radius="1.45" width="0.1016" layer="21"/>
-<pad name="1" x="-5.25" y="-0.1" drill="1.1" diameter="1.7" rot="R90"/>
-<pad name="2" x="-1.75" y="-0.1" drill="1.1" diameter="1.7" rot="R90"/>
-<pad name="3" x="1.75" y="-0.1" drill="1.1" diameter="1.7" rot="R90"/>
-<pad name="4" x="5.25" y="-0.1" drill="1.1" diameter="1.7" rot="R90"/>
-<text x="-5.7" y="2.2225" size="1.27" layer="21" font="vector">1</text>
-<text x="-2.2075" y="2.2225" size="1.27" layer="21" font="vector">2</text>
-<text x="1.285" y="2.2225" size="1.27" layer="21" font="vector">3</text>
-<text x="4.7775" y="2.2225" size="1.27" layer="21" font="vector">4</text>
-<text x="-7.605" y="-2.8575" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="-0.3025" y="4.1275" size="1.27" layer="27">&gt;VALUE</text>
-<polygon width="0.1016" layer="21">
-<vertex x="-6.6525" y="-2.8575"/>
-<vertex x="-6.97" y="-2.2225"/>
-<vertex x="-6.335" y="-2.2225"/>
-</polygon>
-</package>
 <package name="1751248">
 <description>&lt;b&gt;MKDS 1/ 2-3,5&lt;/b&gt; Printklemme&lt;p&gt;
 Nennstrom: 10 A&lt;br&gt;
@@ -11773,41 +11752,6 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="1751264" prefix="X">
-<description>&lt;b&gt;MKDS 1/ 4-3,5&lt;/b&gt; Printklemme&lt;p&gt;
-Nennstrom: 10 A&lt;br&gt;
-Bemessungsspannung: 160 V&lt;br&gt;
-Raster: 3,5 mm&lt;br&gt;
-Polzahl: 4&lt;br&gt;
-Montageart: Löten&lt;br&gt;
-Anschlussart: Schraubanschluss&lt;br&gt;
-Anschlussrichtung vom Leiter zur Platine: 0°&lt;br&gt;
-Source: http://eshop.phoenixcontact.com .. 1751264.pdf</description>
-<gates>
-<gate name="-1" symbol="SCHRAUBKLEMME" x="0" y="0" addlevel="always"/>
-<gate name="-2" symbol="SCHRAUBKLEMME" x="0" y="-7.62" addlevel="always"/>
-<gate name="-3" symbol="SCHRAUBKLEMME" x="0" y="-15.24" addlevel="always"/>
-<gate name="-4" symbol="SCHRAUBKLEMME" x="0" y="-22.86" addlevel="always"/>
-</gates>
-<devices>
-<device name="" package="1751264">
-<connects>
-<connect gate="-1" pin="K" pad="1"/>
-<connect gate="-2" pin="K" pad="2"/>
-<connect gate="-3" pin="K" pad="3"/>
-<connect gate="-4" pin="K" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="1751264" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="10R0934" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="1751248" prefix="X">
 <description>&lt;b&gt;MKDS 1/ 2-3,5&lt;/b&gt; Printklemme&lt;p&gt;
 Nennstrom: 10 A&lt;br&gt;
@@ -11864,22 +11808,22 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
 <part name="F2" library="fuse" deviceset="SH22,5" device="" value="3A"/>
 <part name="CHG2" library="Mine" deviceset="AG102_SLA_CHARGER" device=""/>
-<part name="X2" library="con-phoenix-350" deviceset="1751264" device=""/>
 <part name="X1" library="con-phoenix-350" deviceset="1751248" device=""/>
 <part name="X3" library="Mine" deviceset="22-23-2031" device=""/>
 <part name="CHG1" library="Mine" deviceset="AG102_SLA_CHARGER" device=""/>
 <part name="LED1" library="Mine" deviceset="LED" device="CHIPLED_0805"/>
 <part name="R1" library="rcl" deviceset="R-US_" device="M0805" value="1k"/>
+<part name="X4" library="Mine" deviceset="22-23-2041" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="76.2" y="68.58" size="1.778" layer="91">+12V_TB</text>
 <text x="76.2" y="60.96" size="1.778" layer="91">GND</text>
-<text x="-154.94" y="25.4" size="1.9304" layer="91">Bat A +ve</text>
-<text x="-154.94" y="17.78" size="1.9304" layer="91">Bat A -ve</text>
-<text x="-154.94" y="2.54" size="1.9304" layer="91">Bat B -ve</text>
-<text x="-154.94" y="10.16" size="1.9304" layer="91">Bat B +ve</text>
+<text x="-146.558" y="25.146" size="1.27" layer="91">Bat A +ve</text>
+<text x="-146.558" y="22.352" size="1.27" layer="91">Bat A -ve</text>
+<text x="-146.558" y="17.018" size="1.27" layer="91">Bat B -ve</text>
+<text x="-146.558" y="19.812" size="1.27" layer="91">Bat B +ve</text>
 <text x="-139.7" y="33.02" size="2.54" layer="91">Battery Header</text>
 <text x="68.58" y="73.66" size="2.54" layer="91">Power Header</text>
 <text x="73.66" y="45.72" size="2.54" layer="91">Charge Stat Header</text>
@@ -11906,18 +11850,6 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <attribute name="VALUE" x="44.45" y="65.151" size="1.778" layer="96"/>
 </instance>
 <instance part="CHG2" gate="G$1" x="-25.4" y="-10.16" rot="MR0"/>
-<instance part="X2" gate="-1" x="-121.92" y="25.4" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-123.19" y="24.511" size="1.778" layer="95" rot="MR0"/>
-</instance>
-<instance part="X2" gate="-2" x="-121.92" y="17.78" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-123.19" y="16.891" size="1.778" layer="95" rot="MR0"/>
-</instance>
-<instance part="X2" gate="-3" x="-121.92" y="10.16" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-123.19" y="9.271" size="1.778" layer="95" rot="MR0"/>
-</instance>
-<instance part="X2" gate="-4" x="-121.92" y="2.54" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-123.19" y="1.651" size="1.778" layer="95" rot="MR0"/>
-</instance>
 <instance part="X1" gate="-1" x="60.96" y="68.58" smashed="yes">
 <attribute name="NAME" x="62.23" y="67.691" size="1.778" layer="95"/>
 </instance>
@@ -11936,6 +11868,18 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <instance part="CHG1" gate="G$1" x="-25.4" y="58.42" rot="MR0"/>
 <instance part="LED1" gate="G$1" x="38.1" y="63.5"/>
 <instance part="R1" gate="G$1" x="38.1" y="50.8" rot="R90"/>
+<instance part="X4" gate="-1" x="-127" y="25.4" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-129.54" y="24.638" size="1.524" layer="95" rot="MR0"/>
+</instance>
+<instance part="X4" gate="-2" x="-127" y="22.86" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-129.54" y="22.098" size="1.524" layer="95" rot="MR0"/>
+</instance>
+<instance part="X4" gate="-3" x="-127" y="20.32" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-129.54" y="19.558" size="1.524" layer="95" rot="MR0"/>
+</instance>
+<instance part="X4" gate="-4" x="-127" y="17.78" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-129.54" y="17.018" size="1.524" layer="95" rot="MR0"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -12119,9 +12063,9 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 </net>
 <net name="BATA_+" class="0">
 <segment>
-<pinref part="X2" gate="-1" pin="K"/>
-<wire x1="-119.38" y1="25.4" x2="-111.76" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-124.46" y1="25.4" x2="-111.76" y2="25.4" width="0.1524" layer="91"/>
 <label x="-111.76" y="25.4" size="1.9304" layer="95" xref="yes"/>
+<pinref part="X4" gate="-1" pin="S"/>
 </segment>
 <segment>
 <wire x1="-40.64" y1="53.34" x2="-48.26" y2="53.34" width="0.1524" layer="91"/>
@@ -12141,9 +12085,11 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <pinref part="CHG1" gate="G$1" pin="BAT2-"/>
 </segment>
 <segment>
-<pinref part="X2" gate="-2" pin="K"/>
-<wire x1="-119.38" y1="17.78" x2="-111.76" y2="17.78" width="0.1524" layer="91"/>
 <label x="-111.76" y="17.78" size="1.9304" layer="95" xref="yes"/>
+<pinref part="X4" gate="-2" pin="S"/>
+<wire x1="-114.3" y1="17.78" x2="-111.76" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="-124.46" y1="22.86" x2="-114.3" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="-114.3" y1="22.86" x2="-114.3" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BATB_+" class="0">
@@ -12153,16 +12099,20 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <label x="-48.26" y="-15.24" size="1.9304" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="X2" gate="-3" pin="K"/>
-<wire x1="-119.38" y1="10.16" x2="-111.76" y2="10.16" width="0.1524" layer="91"/>
 <label x="-111.76" y="10.16" size="1.9304" layer="95" xref="yes"/>
+<pinref part="X4" gate="-3" pin="S"/>
+<wire x1="-124.46" y1="20.32" x2="-116.84" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="-116.84" y1="20.32" x2="-116.84" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="-116.84" y1="10.16" x2="-111.76" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BATB_-" class="0">
 <segment>
-<pinref part="X2" gate="-4" pin="K"/>
 <wire x1="-119.38" y1="2.54" x2="-111.76" y2="2.54" width="0.1524" layer="91"/>
 <label x="-111.76" y="2.54" size="1.9304" layer="95" xref="yes"/>
+<pinref part="X4" gate="-4" pin="S"/>
+<wire x1="-124.46" y1="17.78" x2="-119.38" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="-119.38" y1="17.78" x2="-119.38" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="-43.18" y1="-10.16" x2="-40.64" y2="-10.16" width="0.1524" layer="91"/>

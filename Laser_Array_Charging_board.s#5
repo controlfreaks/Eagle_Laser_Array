@@ -10650,16 +10650,13 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <sheets>
 <sheet>
 <plain>
-<text x="-124.46" y="-55.88" size="1.778" layer="91">VCC - Output from 12V/40W power supply. Supply for SLA battery chargers,</text>
-<text x="-2.54" y="-55.88" size="1.778" layer="91">VDD - Ouput from either 12V batteries via a 12V/3V converter or a 3V, 180W power supply.</text>
-<text x="7.62" y="-58.42" size="1.778" layer="91">power supply. The later is active when plugged into AC power.</text>
-<text x="7.62" y="-60.96" size="1.778" layer="91">VDD supplies CPU board and laser modules.</text>
-<text x="-114.3" y="-58.42" size="1.778" layer="91">and 12V needs elsewhere. VCC derived from the batteries or the power</text>
-<text x="-114.3" y="-60.96" size="1.778" layer="91">supply will never be on at the same time.</text>
-<text x="-127" y="-66.04" size="1.778" layer="91">+12V - Switched via RLY2 from either +BAT or VCC. This allows a +12V no matter if running from AC or battery power.</text>
 <text x="76.2" y="68.58" size="1.778" layer="91">+12V_TB</text>
 <text x="76.2" y="60.96" size="1.778" layer="91">GND</text>
 <text x="71.12" y="43.18" size="1.9304" layer="91">Charge Status header</text>
+<text x="-154.94" y="25.4" size="1.9304" layer="91">Bat A +ve</text>
+<text x="-154.94" y="17.78" size="1.9304" layer="91">Bat A -ve</text>
+<text x="-154.94" y="2.54" size="1.9304" layer="91">Bat B -ve</text>
+<text x="-154.94" y="10.16" size="1.9304" layer="91">Bat B +ve</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$3" x="104.14" y="-137.16"/>
@@ -10683,18 +10680,18 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <attribute name="VALUE" x="31.75" y="65.151" size="1.778" layer="96"/>
 </instance>
 <instance part="CHG1" gate="G$1" x="-25.4" y="58.42" rot="MR0"/>
-<instance part="CHG2" gate="G$1" x="-25.4" y="-10.16" rot="MR0"/>
-<instance part="X2" gate="-1" x="-160.02" y="20.32" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-161.29" y="19.431" size="1.778" layer="95" rot="MR0"/>
+<instance part="CHG2" gate="G$1" x="-22.86" y="-10.16" rot="MR0"/>
+<instance part="X2" gate="-1" x="-121.92" y="25.4" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-123.19" y="24.511" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="X2" gate="-2" x="-160.02" y="12.7" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-161.29" y="11.811" size="1.778" layer="95" rot="MR0"/>
+<instance part="X2" gate="-2" x="-121.92" y="17.78" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-123.19" y="16.891" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="X2" gate="-3" x="-160.02" y="5.08" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-161.29" y="4.191" size="1.778" layer="95" rot="MR0"/>
+<instance part="X2" gate="-3" x="-121.92" y="10.16" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-123.19" y="9.271" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="X2" gate="-4" x="-160.02" y="-2.54" smashed="yes" rot="MR0">
-<attribute name="NAME" x="-161.29" y="-3.429" size="1.778" layer="95" rot="MR0"/>
+<instance part="X2" gate="-4" x="-121.92" y="2.54" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-123.19" y="1.651" size="1.778" layer="95" rot="MR0"/>
 </instance>
 <instance part="X1" gate="-1" x="60.96" y="68.58" smashed="yes">
 <attribute name="NAME" x="62.23" y="67.691" size="1.778" layer="95"/>
@@ -10715,15 +10712,6 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <busses>
 </busses>
 <nets>
-<net name="N$6" class="0">
-<segment>
-<wire x1="-40.64" y1="58.42" x2="-43.18" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="-40.64" y1="63.5" x2="-43.18" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="-43.18" y1="63.5" x2="-43.18" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="CHG1" gate="G$1" pin="BAT1-"/>
-<pinref part="CHG1" gate="G$1" pin="BAT2-"/>
-</segment>
-</net>
 <net name="VCC" class="0">
 <segment>
 <wire x1="-2.54" y1="68.58" x2="0" y2="68.58" width="0.1524" layer="91"/>
@@ -10746,11 +10734,9 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <pinref part="C2" gate="G$1" pin="+"/>
 <wire x1="10.16" y1="-2.54" x2="10.16" y2="0" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="0" x2="0" y2="0" width="0.1524" layer="91"/>
-<wire x1="0" y1="0" x2="-2.54" y2="0" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="0" x2="15.24" y2="0" width="0.1524" layer="91"/>
 <junction x="10.16" y="0"/>
 <label x="15.24" y="0" size="1.778" layer="95" xref="yes"/>
-<wire x1="-2.54" y1="-5.08" x2="0" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="0" y1="-5.08" x2="0" y2="0" width="0.1524" layer="91"/>
 <junction x="0" y="0"/>
 <pinref part="CHG2" gate="G$1" pin="VIN1+"/>
@@ -10768,7 +10754,7 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <net name="N$13" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="-2.54" y1="-10.16" x2="7.62" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="0" y1="-10.16" x2="7.62" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="-10.16" x2="7.62" y2="-25.4" width="0.1524" layer="91"/>
 <pinref part="CHG2" gate="G$1" pin="CS"/>
 </segment>
@@ -10794,7 +10780,7 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <net name="STAT2" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="-2.54" y1="-15.24" x2="17.78" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="0" y1="-15.24" x2="17.78" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="-15.24" x2="17.78" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="-15.24" x2="20.32" y2="-15.24" width="0.1524" layer="91"/>
 <junction x="17.78" y="-15.24"/>
@@ -10805,15 +10791,6 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <pinref part="X3" gate="-2" pin="S"/>
 <wire x1="71.12" y1="38.1" x2="66.04" y2="38.1" width="0.1524" layer="91"/>
 <label x="66.04" y="38.1" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<wire x1="-43.18" y1="-10.16" x2="-40.64" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="-43.18" y1="-5.08" x2="-43.18" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="-40.64" y1="-5.08" x2="-43.18" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="CHG2" gate="G$1" pin="BAT1-"/>
-<pinref part="CHG2" gate="G$1" pin="BAT2-"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -10848,7 +10825,6 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <pinref part="X1" gate="-2" pin="K"/>
 <wire x1="58.42" y1="60.96" x2="38.1" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="CHG2" gate="G$1" pin="GND1"/>
-<wire x1="0" y1="-20.32" x2="-2.54" y2="-20.32" width="0.1524" layer="91"/>
 <pinref part="THR2" gate="G$1" pin="2"/>
 <wire x1="-66.04" y1="0" x2="-73.66" y2="0" width="0.1524" layer="91"/>
 <wire x1="-73.66" y1="-40.64" x2="-73.66" y2="0" width="0.1524" layer="91"/>
@@ -10866,7 +10842,6 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <wire x1="0" y1="-40.64" x2="-48.26" y2="-40.64" width="0.1524" layer="91"/>
 <junction x="0" y="-40.64"/>
 <pinref part="CHG2" gate="G$1" pin="GND2"/>
-<wire x1="-2.54" y1="-25.4" x2="0" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="0" y1="-25.4" x2="0" y2="-40.64" width="0.1524" layer="91"/>
 <junction x="0" y="-25.4"/>
 <wire x1="0" y1="-25.4" x2="0" y2="-20.32" width="0.1524" layer="91"/>
@@ -10912,7 +10887,65 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <segment>
 <pinref part="CHG2" gate="G$1" pin="THERM"/>
 <pinref part="THR2" gate="G$1" pin="1"/>
-<wire x1="-40.64" y1="0" x2="-55.88" y2="0" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="0" x2="-55.88" y2="0" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="BATA_+" class="0">
+<segment>
+<pinref part="X2" gate="-1" pin="K"/>
+<wire x1="-119.38" y1="25.4" x2="-111.76" y2="25.4" width="0.1524" layer="91"/>
+<label x="-111.76" y="25.4" size="1.9304" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="CHG1" gate="G$1" pin="BAT+"/>
+<wire x1="-40.64" y1="53.34" x2="-48.26" y2="53.34" width="0.1524" layer="91"/>
+<label x="-48.26" y="53.34" size="1.9304" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="BATA_-" class="0">
+<segment>
+<wire x1="-40.64" y1="58.42" x2="-43.18" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="63.5" x2="-43.18" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="63.5" x2="-43.18" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="CHG1" gate="G$1" pin="BAT1-"/>
+<pinref part="CHG1" gate="G$1" pin="BAT2-"/>
+<wire x1="-43.18" y1="63.5" x2="-48.26" y2="63.5" width="0.1524" layer="91"/>
+<junction x="-43.18" y="63.5"/>
+<label x="-48.26" y="63.5" size="1.9304" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="X2" gate="-2" pin="K"/>
+<wire x1="-119.38" y1="17.78" x2="-111.76" y2="17.78" width="0.1524" layer="91"/>
+<label x="-111.76" y="17.78" size="1.9304" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="BATB_+" class="0">
+<segment>
+<pinref part="CHG2" gate="G$1" pin="BAT+"/>
+<wire x1="-38.1" y1="-15.24" x2="-48.26" y2="-15.24" width="0.1524" layer="91"/>
+<label x="-48.26" y="-15.24" size="1.9304" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="X2" gate="-3" pin="K"/>
+<wire x1="-119.38" y1="10.16" x2="-111.76" y2="10.16" width="0.1524" layer="91"/>
+<label x="-111.76" y="10.16" size="1.9304" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="BATB_-" class="0">
+<segment>
+<pinref part="X2" gate="-4" pin="K"/>
+<wire x1="-119.38" y1="2.54" x2="-111.76" y2="2.54" width="0.1524" layer="91"/>
+<label x="-111.76" y="2.54" size="1.9304" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="-43.18" y1="-10.16" x2="-38.1" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="-5.08" x2="-43.18" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="-5.08" x2="-43.18" y2="-5.08" width="0.1524" layer="91"/>
+<pinref part="CHG2" gate="G$1" pin="BAT1-"/>
+<pinref part="CHG2" gate="G$1" pin="BAT2-"/>
+<wire x1="-43.18" y1="-5.08" x2="-48.26" y2="-5.08" width="0.1524" layer="91"/>
+<junction x="-43.18" y="-5.08"/>
+<label x="-48.26" y="-5.08" size="1.9304" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
