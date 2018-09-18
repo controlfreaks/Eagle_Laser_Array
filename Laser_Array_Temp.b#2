@@ -174,6 +174,36 @@
 <text x="81.836" y="141.858" size="1.778" layer="21">TH0</text>
 <text x="66.596" y="142.62" size="1.778" layer="21">LH0</text>
 <text x="63.802" y="127.634" size="1.778" layer="21">S0</text>
+<text x="62.278" y="120.522" size="1.778" layer="21">LH2</text>
+<text x="63.04" y="105.282" size="1.778" layer="21">S2</text>
+<text x="82.09" y="119.252" size="1.778" layer="21">TH2</text>
+<text x="7.16" y="119.76" size="1.778" layer="21">TH3</text>
+<text x="22.908" y="120.776" size="1.778" layer="21">LH3</text>
+<text x="26.972" y="104.774" size="1.778" layer="21">S3</text>
+<text x="62.024" y="98.17" size="1.778" layer="21">LH4</text>
+<text x="63.04" y="82.93" size="1.778" layer="21">S4</text>
+<text x="81.836" y="96.9" size="1.778" layer="21">TH4</text>
+<text x="6.906" y="97.408" size="1.778" layer="21">TH5</text>
+<text x="26.21" y="98.17" size="1.778" layer="21">LH5</text>
+<text x="26.972" y="82.676" size="1.778" layer="21">S5</text>
+<text x="62.532" y="75.564" size="1.778" layer="21">LH6</text>
+<text x="26.464" y="75.818" size="1.778" layer="21">LH7</text>
+<text x="6.652" y="74.802" size="1.778" layer="21">TH7</text>
+<text x="81.836" y="74.548" size="1.778" layer="21">TH6</text>
+<text x="63.548" y="60.324" size="1.778" layer="21">S6</text>
+<text x="26.972" y="60.07" size="1.778" layer="21">S7</text>
+<text x="62.532" y="53.72" size="1.778" layer="21">LH8</text>
+<text x="63.548" y="38.226" size="1.778" layer="21">S8</text>
+<text x="81.836" y="52.704" size="1.778" layer="21">TH8</text>
+<text x="6.652" y="52.45" size="1.778" layer="21">TH9</text>
+<text x="26.464" y="53.466" size="1.778" layer="21">LH9</text>
+<text x="26.972" y="37.718" size="1.778" layer="21">S9</text>
+<text x="62.278" y="30.86" size="1.778" layer="21">LH10</text>
+<text x="63.294" y="15.366" size="1.778" layer="21">S10</text>
+<text x="81.836" y="29.844" size="1.778" layer="21">TH10</text>
+<text x="6.906" y="29.844" size="1.778" layer="21">TH11</text>
+<text x="25.956" y="31.368" size="1.778" layer="21">LH11</text>
+<text x="26.718" y="15.62" size="1.778" layer="21">S11</text>
 </plain>
 <libraries>
 <library name="rcl">
@@ -1582,7 +1612,7 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="38C0355" x="84.2772" y="136.017" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="1462920" x="84.2772" y="136.017" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="22-23-2041" x="84.2772" y="136.017" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="65.4812" y="103.251" size="1.016" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="87.8332" y="133.223" size="1.016" layer="25" ratio="10" rot="R270"/>
 </element>
 <element name="J2" library="Mine" package="22-23-2021" value="22-23-2021" x="64.7192" y="139.573" smashed="yes" rot="R90">
 <attribute name="MF" value="MOLEX" x="64.7192" y="139.573" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1602,7 +1632,7 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="38C0355" x="29.258" y="136.016" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="1462920" x="29.258" y="136.016" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="22-23-2041" x="29.258" y="136.016" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="5.382" y="133.476" size="1.016" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="5.382" y="139.064" size="1.016" layer="25" ratio="10" rot="R90"/>
 </element>
 <element name="R3" library="rcl" package="M0805" value="4.7k" x="76.9112" y="109.093" smashed="yes">
 <attribute name="NAME" x="75.8952" y="106.553" size="1.27" layer="25"/>
@@ -1615,7 +1645,7 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="1462920" x="64.4652" y="113.665" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="22-23-2041" x="64.4652" y="113.665" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="38C0355" x="64.4652" y="113.665" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="88.0872" y="114.681" size="1.016" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="88.0872" y="110.617" size="1.016" layer="25" ratio="10" rot="R270"/>
 </element>
 <element name="R5" library="rcl" package="M0805" value="4.7k" x="16.558" y="117.982" smashed="yes" rot="R180">
 <attribute name="NAME" x="17.066" y="120.522" size="1.27" layer="25" rot="R180"/>
@@ -1628,7 +1658,7 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="1462920" x="48.816" y="113.664" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="22-23-2041" x="48.816" y="113.664" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="38C0355" x="48.816" y="113.664" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="5.382" y="108.584" size="1.016" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="5.382" y="116.712" size="1.016" layer="25" ratio="10" rot="R90"/>
 </element>
 <element name="R7" library="rcl" package="M0805" value="4.7k" x="76.9112" y="86.741" smashed="yes">
 <attribute name="NAME" x="75.6412" y="84.201" size="1.27" layer="25"/>
@@ -1641,33 +1671,33 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="1462920" x="64.4652" y="91.313" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="22-23-2041" x="64.4652" y="91.313" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="38C0355" x="64.4652" y="91.313" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="88.3412" y="91.821" size="1.016" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="88.0872" y="88.265" size="1.016" layer="25" ratio="10" rot="R270"/>
 </element>
 <element name="R9" library="rcl" package="M0805" value="4.7k" x="16.462" y="95.886" smashed="yes" rot="R180">
-<attribute name="NAME" x="17.732" y="94.616" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="17.732" y="98.68" size="1.27" layer="25" rot="R180"/>
 </element>
 <element name="R10" library="rcl" package="M0805" value="4.7k" x="16.462" y="86.742" smashed="yes" rot="R180">
-<attribute name="NAME" x="17.986" y="89.282" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="19.51" y="85.472" size="1.27" layer="25" rot="R180"/>
 </element>
 <element name="X8" library="Mine" package="22-23-2041" value="22-23-2041" x="9.192" y="91.312" smashed="yes" rot="R90">
 <attribute name="MF" value="MOLEX" x="29.004" y="91.312" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="1462920" x="29.004" y="91.312" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="22-23-2041" x="29.004" y="91.312" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="38C0355" x="29.004" y="91.312" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="5.382" y="86.232" size="1.016" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="5.382" y="94.614" size="1.016" layer="25" ratio="10" rot="R90"/>
 </element>
 <element name="R11" library="rcl" package="M0805" value="4.7k" x="76.9112" y="64.389" smashed="yes">
-<attribute name="NAME" x="75.1332" y="65.913" size="1.27" layer="25"/>
+<attribute name="NAME" x="75.6412" y="61.595" size="1.27" layer="25"/>
 </element>
 <element name="R12" library="rcl" package="M0805" value="4.7k" x="76.9112" y="73.533" smashed="yes">
-<attribute name="NAME" x="75.3872" y="70.739" size="1.27" layer="25"/>
+<attribute name="NAME" x="75.6412" y="75.311" size="1.27" layer="25"/>
 </element>
 <element name="X9" library="Mine" package="22-23-2041" value="22-23-2041" x="84.2772" y="68.961" smashed="yes" rot="R270">
 <attribute name="MF" value="MOLEX" x="29.4132" y="91.821" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="1462920" x="29.4132" y="91.821" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="22-23-2041" x="29.4132" y="91.821" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="38C0355" x="29.4132" y="91.821" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="88.0872" y="74.041" size="1.016" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="88.0872" y="66.167" size="1.016" layer="25" ratio="10" rot="R270"/>
 </element>
 <element name="R13" library="rcl" package="M0805" value="4.7k" x="16.716" y="73.534" smashed="yes" rot="R180">
 <attribute name="NAME" x="17.986" y="72.264" size="1.27" layer="25" rot="R180"/>
@@ -1683,23 +1713,23 @@ design rules under a new name.</description>
 <attribute name="NAME" x="5.382" y="63.88" size="1.016" layer="25" ratio="10" rot="R90"/>
 </element>
 <element name="R18" library="rcl" package="M0805" value="4.7k" x="76.9112" y="42.037" smashed="yes">
-<attribute name="NAME" x="75.3872" y="43.561" size="1.27" layer="25"/>
+<attribute name="NAME" x="73.3552" y="38.989" size="1.27" layer="25"/>
 </element>
 <element name="R19" library="rcl" package="M0805" value="4.7k" x="76.9112" y="51.181" smashed="yes">
-<attribute name="NAME" x="75.3872" y="48.387" size="1.27" layer="25"/>
+<attribute name="NAME" x="75.6412" y="52.705" size="1.27" layer="25"/>
 </element>
 <element name="X11" library="Mine" package="22-23-2041" value="22-23-2041" x="84.2772" y="46.609" smashed="yes" rot="R270">
 <attribute name="MF" value="MOLEX" x="-25.4508" y="69.469" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="1462920" x="-25.4508" y="69.469" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="22-23-2041" x="-25.4508" y="69.469" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="38C0355" x="-25.4508" y="69.469" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="88.0872" y="51.689" size="1.016" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="88.0872" y="44.323" size="1.016" layer="25" ratio="10" rot="R270"/>
 </element>
 <element name="R20" library="rcl" package="M0805" value="4.7k" x="16.462" y="51.182" smashed="yes" rot="R180">
-<attribute name="NAME" x="17.732" y="49.912" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="18.24" y="53.976" size="1.27" layer="25" rot="R180"/>
 </element>
 <element name="R21" library="rcl" package="M0805" value="4.7k" x="16.462" y="42.038" smashed="yes" rot="R180">
-<attribute name="NAME" x="17.732" y="45.086" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="18.24" y="40.514" size="1.27" layer="25" rot="R180"/>
 </element>
 <element name="X12" library="Mine" package="22-23-2041" value="22-23-2041" x="9.192" y="46.608" smashed="yes" rot="R90">
 <attribute name="MF" value="MOLEX" x="138.732" y="46.608" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1709,23 +1739,23 @@ design rules under a new name.</description>
 <attribute name="NAME" x="5.382" y="41.528" size="1.016" layer="25" ratio="10" rot="R90"/>
 </element>
 <element name="R23" library="rcl" package="M0805" value="4.7k" x="76.9112" y="19.685" smashed="yes">
-<attribute name="NAME" x="75.3872" y="21.209" size="1.27" layer="25"/>
+<attribute name="NAME" x="75.3872" y="16.891" size="1.27" layer="25"/>
 </element>
 <element name="R24" library="rcl" package="M0805" value="4.7k" x="76.9112" y="28.829" smashed="yes">
-<attribute name="NAME" x="75.6412" y="26.035" size="1.27" layer="25"/>
+<attribute name="NAME" x="75.3872" y="30.099" size="1.27" layer="25"/>
 </element>
 <element name="X13" library="Mine" package="22-23-2041" value="22-23-2041" x="84.2772" y="24.257" smashed="yes" rot="R270">
 <attribute name="MF" value="MOLEX" x="64.2112" y="24.257" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="1462920" x="64.2112" y="24.257" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="22-23-2041" x="64.2112" y="24.257" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="38C0355" x="64.2112" y="24.257" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="88.0872" y="29.337" size="1.016" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="88.0872" y="22.225" size="1.016" layer="25" ratio="10" rot="R270"/>
 </element>
 <element name="R25" library="rcl" package="M0805" value="4.7k" x="16.462" y="28.83" smashed="yes" rot="R180">
-<attribute name="NAME" x="17.732" y="27.56" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="18.24" y="31.624" size="1.27" layer="25" rot="R180"/>
 </element>
 <element name="R26" library="rcl" package="M0805" value="4.7k" x="16.462" y="19.686" smashed="yes" rot="R180">
-<attribute name="NAME" x="18.24" y="22.48" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="18.24" y="18.162" size="1.27" layer="25" rot="R180"/>
 </element>
 <element name="X14" library="Mine" package="22-23-2041" value="22-23-2041" x="9.192" y="24.256" smashed="yes" rot="R90">
 <attribute name="MF" value="MOLEX" x="49.07" y="24.256" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1851,40 +1881,40 @@ design rules under a new name.</description>
 <attribute name="NAME" x="45.72" y="148.082" size="1.016" layer="25" ratio="10" rot="R180"/>
 </element>
 <element name="TS1" library="Mine" package="SOT23-5L" value="TC74" x="76.9112" y="136.017" smashed="yes" rot="R90">
-<attribute name="NAME" x="74.2442" y="134.62" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="74.93" y="134.9502" size="1.27" layer="25" rot="R180"/>
 </element>
 <element name="TS2" library="Mine" package="SOT23-5L" value="TC74" x="16.558" y="136.016" smashed="yes" rot="R270">
-<attribute name="NAME" x="18.463" y="137.921" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="19.305" y="133.525" size="1.27" layer="25"/>
 </element>
 <element name="TS3" library="Mine" package="SOT23-5L" value="TC74" x="76.9112" y="113.665" smashed="yes" rot="R90">
-<attribute name="NAME" x="75.0062" y="111.76" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="74.422" y="112.5982" size="1.27" layer="25" rot="R180"/>
 </element>
 <element name="TS4" library="Mine" package="SOT23-5L" value="TC74" x="16.558" y="113.664" smashed="yes" rot="R270">
-<attribute name="NAME" x="18.463" y="115.569" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="19.305" y="111.173" size="1.27" layer="25"/>
 </element>
 <element name="TS5" library="Mine" package="SOT23-5L" value="TC74" x="76.9112" y="91.313" smashed="yes" rot="R90">
-<attribute name="NAME" x="75.0062" y="89.408" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="74.422" y="90.2462" size="1.27" layer="25" rot="R180"/>
 </element>
 <element name="TS6" library="Mine" package="SOT23-5L" value="TC74" x="16.558" y="91.312" smashed="yes" rot="R270">
-<attribute name="NAME" x="18.463" y="93.217" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="19.305" y="88.821" size="1.27" layer="25"/>
 </element>
 <element name="TS7" library="Mine" package="SOT23-5L" value="TC74" x="76.9112" y="68.961" smashed="yes" rot="R90">
-<attribute name="NAME" x="74.4982" y="67.818" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="74.2442" y="70.358" size="1.27" layer="25" rot="R90"/>
 </element>
 <element name="TS8" library="Mine" package="SOT23-5L" value="TC74" x="16.558" y="68.96" smashed="yes" rot="R270">
 <attribute name="NAME" x="18.463" y="70.865" size="1.27" layer="25" rot="R270"/>
 </element>
 <element name="TS9" library="Mine" package="SOT23-5L" value="TC74" x="76.9112" y="46.609" smashed="yes" rot="R90">
-<attribute name="NAME" x="74.2442" y="44.958" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="74.168" y="45.5422" size="1.27" layer="25" rot="R180"/>
 </element>
 <element name="TS10" library="Mine" package="SOT23-5L" value="TC74" x="16.558" y="46.608" smashed="yes" rot="R270">
-<attribute name="NAME" x="18.463" y="48.513" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="19.305" y="43.863" size="1.27" layer="25"/>
 </element>
 <element name="TS11" library="Mine" package="SOT23-5L" value="TC74" x="76.9112" y="24.257" smashed="yes" rot="R90">
-<attribute name="NAME" x="74.4982" y="21.844" size="1.27" layer="25" rot="R90"/>
+<attribute name="NAME" x="75.692" y="22.4282" size="1.27" layer="25" rot="R180"/>
 </element>
 <element name="TS12" library="Mine" package="SOT23-5L" value="TC74" x="16.558" y="24.256" smashed="yes" rot="R270">
-<attribute name="NAME" x="18.463" y="26.161" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="18.797" y="21.257" size="1.27" layer="25"/>
 </element>
 <element name="R27" library="rcl" package="M0805" value="4.7k" x="46.736" y="46.482" smashed="yes" rot="R180">
 <attribute name="NAME" x="44.45" y="47.244" size="1.27" layer="25" rot="R180"/>
