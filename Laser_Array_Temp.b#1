@@ -167,7 +167,7 @@
 <hole x="10" y="150" drill="3.2"/>
 <hole x="83.44" y="10.04" drill="3.2"/>
 <hole x="83.46" y="150" drill="3.2"/>
-<text x="30.226" y="11.176" size="1.778" layer="21">Temperature Sensor Board V1.0.</text>
+<text x="30.226" y="11.176" size="1.778" layer="21">Temperature Sensor Board V1.1.</text>
 <text x="17.526" y="6.858" size="1.778" layer="21">Terawatt Productions Inc. Sept 13, 2018.</text>
 <text x="51.054" y="155.956" size="1.27" layer="21">Power </text>
 <text x="37.338" y="155.956" size="1.27" layer="21">Signals</text>
