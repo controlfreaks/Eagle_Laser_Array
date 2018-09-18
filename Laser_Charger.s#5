@@ -10647,7 +10647,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="-45.72" y="-10.16" size="1.778" layer="91">2B</text>
 <text x="106.934" y="-14.732" size="1.778" layer="91">2B</text>
 <text x="90.932" y="-14.732" size="1.778" layer="91">1B</text>
-<text x="-81.28" y="-66.04" size="1.778" layer="91">VCC - output from 12V/40W power supply. Supply for SLA battery chargers,</text>
+<text x="-81.28" y="-66.04" size="1.778" layer="91">VCC - Output from 12V/40W power supply. Supply for SLA battery chargers,</text>
 <text x="40.64" y="-66.04" size="1.778" layer="91">VDD - Ouput from either 12V batteries via a 12V/3V converter or a 3V, 180W power supply.</text>
 <text x="50.8" y="-68.58" size="1.778" layer="91">power supply. The later is active when plugged into AC power.</text>
 <text x="50.8" y="-71.12" size="1.778" layer="91">VDD supplies CPU board and laser modules.</text>

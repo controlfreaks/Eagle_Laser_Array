@@ -10775,6 +10775,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="90.932" y="-44.704" size="1.778" layer="91">1A</text>
 <text x="104.648" y="-44.45" size="1.778" layer="91">2A</text>
 <text x="-83.82" y="-76.2" size="1.778" layer="91">+12V - Switched via RLY2 from either +BAT or VCC. This allows a +12V no matter if running from AC or battery power.</text>
+<text x="-88.9" y="20.32" size="1.9304" layer="91">CHARGE Relay</text>
+<text x="110.998" y="-52.324" size="1.9304" layer="91">POWER Relay</text>
 </plain>
 <instances>
 <instance part="BAT1" gate="G$1" x="-43.18" y="30.48" smashed="yes">

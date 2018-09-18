@@ -172,8 +172,8 @@
 <hole x="95.22" y="50.824" drill="3.2"/>
 <hole x="14.99" y="130.4" drill="3.2"/>
 <hole x="95.21" y="130.41" drill="3.2"/>
-<text x="99.568" y="67.564" size="1.778" layer="21" rot="R180">Laser_Array_CPU</text>
-<text x="104.902" y="113.03" size="1.778" layer="21" rot="R270">August 23, 1018  Terawatt Productions Inc.</text>
+<text x="104.902" y="44.45" size="1.778" layer="21" rot="R180">Laser_Array_CPU, V1.0.</text>
+<text x="40.64" y="38.354" size="1.778" layer="21">September13, 1018  Terawatt Productions Inc.</text>
 <dimension x1="14.99" y1="130.4" x2="95.21" y2="130.41" x3="55.1" y3="155.702" textsize="1.778" layer="21" dtype="horizontal"/>
 <dimension x1="24.82" y1="122.96" x2="84.19" y2="122.96" x3="54.505" y3="161.29" textsize="1.778" layer="21" dtype="horizontal"/>
 <dimension x1="24.82" y1="122.96" x2="1.016" y2="123.19" x3="12.918" y3="166.878" textsize="1.778" layer="21" dtype="horizontal"/>
@@ -195,6 +195,17 @@
 <dimension x1="24.82" y1="122.96" x2="24.84" y2="75.55" x3="-3.302" y3="99.255" textsize="1.778" layer="21" dtype="vertical"/>
 <dimension x1="14.9746" y1="50.58" x2="95.22" y2="50.824" x3="55.0973" y3="23.622" textsize="1.778" layer="21" dtype="horizontal"/>
 <dimension x1="14.9746" y1="50.58" x2="14.99" y2="130.4" x3="-11.43" y3="90.49" textsize="1.778" layer="21" dtype="vertical"/>
+<text x="104.648" y="111.506" size="1.778" layer="21" rot="R90">STAT</text>
+<text x="104.648" y="100.076" size="1.778" layer="21" rot="R90">CHGOUT</text>
+<text x="104.394" y="120.142" size="1.778" layer="21" rot="R90">ON LED</text>
+<text x="104.902" y="92.202" size="1.778" layer="21" rot="R90">FAN</text>
+<text x="104.14" y="74.93" size="1.778" layer="21" rot="R90">Power SW</text>
+<text x="28.448" y="40.894" size="1.778" layer="21">POWER</text>
+<text x="15.748" y="55.88" size="1.778" layer="21" rot="R180">LASRLY</text>
+<text x="4.064" y="63.754" size="1.778" layer="21" rot="R90">TS PWR</text>
+<text x="6.604" y="75.692" size="1.778" layer="21" rot="R90">TS SIG</text>
+<text x="6.604" y="88.138" size="1.778" layer="21" rot="R90">ENCDR</text>
+<text x="71.12" y="88.646" size="1.778" layer="21" rot="R90">TFT Display</text>
 </plain>
 <libraries>
 <library name="rcl">
@@ -2578,7 +2589,7 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="1462920" x="42.266" y="63.06" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="38C0355" x="42.266" y="63.06" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="22-23-2041" x="42.266" y="63.06" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="37.346" y="42.75" size="1.016" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="37.346" y="51.132" size="1.016" layer="25" ratio="10" rot="R180"/>
 </element>
 <element name="D4" library="adafruit" package="SOD-123" value="641-1014-6-ND" x="43.752" y="56.556" smashed="yes" rot="R270">
 <attribute name="NAME" x="45.006" y="57.656" size="1.27" layer="25" rot="R270"/>
@@ -2629,11 +2640,12 @@ design rules under a new name.</description>
 <element name="R16" library="rcl" package="R0805" value="10k" x="30.734" y="80.772" smashed="yes">
 <attribute name="NAME" x="30.099" y="82.042" size="1.27" layer="25"/>
 </element>
-<element name="X6" library="Mine" package="22-23-2041" value="22-23-2041" x="10.668" y="79.756" rot="R270">
+<element name="X6" library="Mine" package="22-23-2041" value="22-23-2041" x="10.668" y="79.756" smashed="yes" rot="R270">
 <attribute name="MF" value="MOLEX" x="10.668" y="79.756" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="38C0355" x="10.668" y="79.756" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="1462920" x="10.668" y="79.756" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="22-23-2041" x="10.668" y="79.756" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="14.478" y="84.836" size="1.016" layer="25" ratio="10" rot="R270"/>
 </element>
 </elements>
 <signals>

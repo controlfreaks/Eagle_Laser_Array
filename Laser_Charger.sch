@@ -5314,6 +5314,63 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <text x="-8.89" y="12.192" size="1.9304" layer="94">AG102</text>
 <text x="-17.018" y="-21.336" size="1.9304" layer="94">SLA Batt Charger</text>
 </symbol>
+<symbol name="FRAME_B_L">
+<frame x1="0" y1="0" x2="431.8" y2="279.4" columns="9" rows="6" layer="94" border-bottom="no"/>
+</symbol>
+<symbol name="DOCFIELD_TERAWATT">
+<wire x1="-15.24" y1="15.24" x2="-15.24" y2="20.32" width="0.6096" layer="94"/>
+<wire x1="-15.24" y1="20.32" x2="-15.24" y2="30.48" width="0.6096" layer="94"/>
+<wire x1="101.6" y1="35.56" x2="78.74" y2="35.56" width="0.6096" layer="94"/>
+<wire x1="78.74" y1="35.56" x2="2.54" y2="35.56" width="0.6096" layer="94"/>
+<wire x1="2.54" y1="35.56" x2="-15.24" y2="35.56" width="0.6096" layer="94"/>
+<wire x1="101.6" y1="35.56" x2="101.6" y2="30.48" width="0.6096" layer="94"/>
+<wire x1="-15.24" y1="30.48" x2="78.74" y2="30.48" width="0.4064" layer="94"/>
+<wire x1="78.74" y1="30.48" x2="88.9" y2="30.48" width="0.4064" layer="94"/>
+<wire x1="88.9" y1="30.48" x2="101.6" y2="30.48" width="0.4064" layer="94"/>
+<wire x1="-15.24" y1="30.48" x2="-15.24" y2="35.56" width="0.6096" layer="94"/>
+<text x="3.81" y="13.97" size="2.54" layer="94">Date:</text>
+<text x="19.05" y="9.906" size="2.54" layer="94">&gt;LAST_DATE_TIME</text>
+<text x="72.39" y="1.27" size="2.54" layer="94">Sheet:</text>
+<text x="86.36" y="1.27" size="2.54" layer="94">&gt;SHEET</text>
+<text x="91.44" y="26.67" size="2.54" layer="94">REV:</text>
+<text x="3.81" y="26.67" size="2.54" layer="94">TITLE:</text>
+<text x="18.796" y="22.606" size="2.54" layer="94">&gt;DRAWING_NAME</text>
+<wire x1="2.54" y1="35.56" x2="2.54" y2="20.32" width="0.4064" layer="94"/>
+<text x="-13.208" y="31.496" size="2.54" layer="94">ISSUE</text>
+<wire x1="2.54" y1="20.32" x2="2.54" y2="17.78" width="0.4064" layer="94"/>
+<wire x1="2.54" y1="17.78" x2="2.54" y2="10.16" width="0.4064" layer="94"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="0" width="0.4064" layer="94"/>
+<wire x1="-15.24" y1="20.32" x2="2.54" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="10.16" x2="2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="17.78" x2="81.28" y2="17.78" width="0.254" layer="94"/>
+<wire x1="81.28" y1="17.78" x2="88.9" y2="17.78" width="0.254" layer="94"/>
+<wire x1="88.9" y1="17.78" x2="101.6" y2="17.78" width="0.254" layer="94"/>
+<wire x1="88.9" y1="30.48" x2="88.9" y2="17.78" width="0.254" layer="94"/>
+<wire x1="81.28" y1="17.78" x2="81.28" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="15.24" x2="-15.24" y2="10.16" width="0.6096" layer="95"/>
+<wire x1="-15.24" y1="10.16" x2="-15.24" y2="0" width="0.6096" layer="94"/>
+<wire x1="-15.24" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
+<wire x1="2.54" y1="0" x2="71.12" y2="0" width="0.6096" layer="94"/>
+<wire x1="71.12" y1="0" x2="101.6" y2="0" width="0.6096" layer="94"/>
+<wire x1="101.6" y1="30.48" x2="101.6" y2="17.78" width="0.6096" layer="94"/>
+<wire x1="101.6" y1="17.78" x2="101.6" y2="5.08" width="0.6096" layer="94"/>
+<wire x1="101.6" y1="5.08" x2="101.6" y2="0" width="0.6096" layer="94"/>
+<wire x1="101.6" y1="5.08" x2="81.28" y2="5.08" width="0.254" layer="94"/>
+<wire x1="81.28" y1="5.08" x2="71.12" y2="5.08" width="0.254" layer="94"/>
+<wire x1="71.12" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="71.12" y1="5.08" x2="71.12" y2="0" width="0.254" layer="94"/>
+<text x="-13.716" y="26.924" size="2.54" layer="94">DRAWN</text>
+<text x="-14.224" y="17.018" size="2.54" layer="94">CHECKED</text>
+<text x="-14.224" y="6.858" size="2.54" layer="94">DATE</text>
+<text x="82.042" y="14.478" size="2.54" layer="94">DRG NO</text>
+<text x="3.81" y="1.524" size="2.54" layer="94">File:</text>
+<wire x1="78.74" y1="35.56" x2="78.74" y2="30.48" width="0.254" layer="94"/>
+<text x="82.296" y="32.004" size="2.1844" layer="94">C</text>
+<circle x="83.058" y="33.02" radius="1.93440625" width="0.254" layer="94"/>
+<text x="87.884" y="31.75" size="2.54" layer="94">2018</text>
+<text x="41.402" y="33.02" size="2.54" layer="94" ratio="14" align="center">TERAWATT PRODUCTIONS INC.</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="BATTERY" prefix="BAT" uservalue="yes">
@@ -7073,6 +7130,20 @@ Source: http://www.mew-europe.com/..  en_ds_61014_0000.pdf</description>
 <connect gate="G$1" pin="VIN1+" pad="1"/>
 <connect gate="G$1" pin="VIN2+" pad="2"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FRAME_B_L_TERAWATT" prefix="FRAME" uservalue="yes">
+<description>&lt;b&gt;FRAME&lt;/b&gt; B Size , 11 x 17 INCH, Landscape&lt;p&gt;</description>
+<gates>
+<gate name="G$1" symbol="FRAME_B_L" x="0" y="0" addlevel="always"/>
+<gate name="G$3" symbol="DOCFIELD_TERAWATT" x="325.12" y="0"/>
+</gates>
+<devices>
+<device name="">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -10747,6 +10818,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="RLY2" library="Mine" deviceset="4P4T_RELAYS" device=""/>
 <part name="CHG1" library="Mine" deviceset="AG102_SLA_CHARGER" device=""/>
 <part name="CHG2" library="Mine" deviceset="AG102_SLA_CHARGER" device=""/>
+<part name="FRAME1" library="Mine" deviceset="FRAME_B_L_TERAWATT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10823,6 +10895,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="RLY2" gate="4" x="109.22" y="-20.32" smashed="yes" rot="R90"/>
 <instance part="CHG1" gate="G$1" x="10.16" y="48.26" rot="MR0"/>
 <instance part="CHG2" gate="G$1" x="17.78" y="-20.32" rot="MR0"/>
+<instance part="FRAME1" gate="G$3" x="162.56" y="-142.24"/>
+<instance part="FRAME1" gate="G$1" x="-162.56" y="-142.24"/>
 </instances>
 <busses>
 </busses>
