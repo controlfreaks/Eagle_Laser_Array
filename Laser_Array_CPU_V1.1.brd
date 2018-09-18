@@ -172,7 +172,7 @@
 <hole x="95.22" y="50.824" drill="3.2"/>
 <hole x="14.99" y="130.4" drill="3.2"/>
 <hole x="95.21" y="130.41" drill="3.2"/>
-<text x="98.298" y="43.434" size="1.778" layer="21" rot="R180">Laser_Array_CPU, V1.0.</text>
+<text x="98.298" y="43.434" size="1.778" layer="21" rot="R180">Laser_Array_CPU, V1.2.</text>
 <text x="30.988" y="37.846" size="1.778" layer="21">September 18, 1018  Terawatt Productions Inc.</text>
 <dimension x1="14.99" y1="130.4" x2="95.21" y2="130.41" x3="55.1" y3="155.702" textsize="1.778" layer="21" dtype="horizontal"/>
 <dimension x1="24.82" y1="122.96" x2="84.19" y2="122.96" x3="54.505" y3="161.29" textsize="1.778" layer="21" dtype="horizontal"/>
