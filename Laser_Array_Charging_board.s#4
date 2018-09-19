@@ -10652,11 +10652,13 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <plain>
 <text x="76.2" y="68.58" size="1.778" layer="91">+12V_TB</text>
 <text x="76.2" y="60.96" size="1.778" layer="91">GND</text>
-<text x="71.12" y="43.18" size="1.9304" layer="91">Charge Status header</text>
 <text x="-154.94" y="25.4" size="1.9304" layer="91">Bat A +ve</text>
 <text x="-154.94" y="17.78" size="1.9304" layer="91">Bat A -ve</text>
 <text x="-154.94" y="2.54" size="1.9304" layer="91">Bat B -ve</text>
 <text x="-154.94" y="10.16" size="1.9304" layer="91">Bat B +ve</text>
+<text x="-139.7" y="33.02" size="2.54" layer="91">Battery Header</text>
+<text x="68.58" y="73.66" size="2.54" layer="91">Power Header</text>
+<text x="73.66" y="45.72" size="2.54" layer="91">Charge Stat Header</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$3" x="104.14" y="-137.16"/>

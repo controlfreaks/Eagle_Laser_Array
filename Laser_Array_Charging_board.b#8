@@ -172,6 +172,16 @@
 <hole x="70" y="10" drill="3.2"/>
 <hole x="70" y="80" drill="3.2"/>
 <hole x="10" y="80" drill="3.2"/>
+<wire x1="23.876" y1="71.628" x2="38.862" y2="71.628" width="0.3048" layer="21"/>
+<wire x1="38.862" y1="71.628" x2="38.862" y2="14.478" width="0.3048" layer="21"/>
+<wire x1="38.862" y1="14.478" x2="23.876" y2="14.478" width="0.3048" layer="21"/>
+<wire x1="23.876" y1="14.478" x2="23.876" y2="71.628" width="0.3048" layer="21"/>
+<wire x1="41.148" y1="71.628" x2="56.134" y2="71.628" width="0.3048" layer="21"/>
+<wire x1="56.134" y1="71.628" x2="56.134" y2="14.478" width="0.3048" layer="21"/>
+<wire x1="56.134" y1="14.478" x2="41.148" y2="14.478" width="0.3048" layer="21"/>
+<wire x1="41.148" y1="14.478" x2="41.148" y2="71.628" width="0.3048" layer="21"/>
+<text x="54.864" y="72.644" size="1.778" layer="21">Unit A</text>
+<text x="17.018" y="72.39" size="1.778" layer="21">Unit B</text>
 </plain>
 <libraries>
 <library name="Mine">
@@ -250,6 +260,31 @@ grid 5.08 mm, diameter 10.5 mm</description>
 <pad name="3" x="2.54" y="0" drill="1" shape="long" rot="R90"/>
 <text x="-3.81" y="3.81" size="1.016" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.81" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="CHIPLED_0805">
+<description>&lt;b&gt;CHIPLED&lt;/b&gt;&lt;p&gt;
+Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
+<wire x1="-0.35" y1="1" x2="0.35" y2="1" width="0.1016" layer="51" curve="180" cap="flat"/>
+<wire x1="-0.35" y1="-1" x2="0.35" y2="-1" width="0.1016" layer="51" curve="-180" cap="flat"/>
+<wire x1="0.575" y1="0.525" x2="0.575" y2="-0.525" width="0.1016" layer="51"/>
+<wire x1="-0.575" y1="-0.5" x2="-0.575" y2="0.925" width="0.1016" layer="51"/>
+<circle x="-0.45" y="0.85" radius="0.103" width="0.1016" layer="51"/>
+<smd name="C" x="0" y="1.05" dx="1.2" dy="1.2" layer="1"/>
+<smd name="A" x="0" y="-1.05" dx="1.2" dy="1.2" layer="1"/>
+<text x="-1.27" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="2.54" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="0.3" y1="0.5" x2="0.625" y2="1" layer="51"/>
+<rectangle x1="-0.325" y1="0.5" x2="-0.175" y2="0.75" layer="51"/>
+<rectangle x1="0.175" y1="0.5" x2="0.325" y2="0.75" layer="51"/>
+<rectangle x1="-0.2" y1="0.5" x2="0.2" y2="0.675" layer="51"/>
+<rectangle x1="0.3" y1="-1" x2="0.625" y2="-0.5" layer="51"/>
+<rectangle x1="-0.625" y1="-1" x2="-0.3" y2="-0.5" layer="51"/>
+<rectangle x1="0.175" y1="-0.75" x2="0.325" y2="-0.5" layer="51"/>
+<rectangle x1="-0.325" y1="-0.75" x2="-0.175" y2="-0.5" layer="51"/>
+<rectangle x1="-0.2" y1="-0.675" x2="0.2" y2="-0.5" layer="51"/>
+<rectangle x1="-0.1" y1="0" x2="0.1" y2="0.2" layer="21"/>
+<rectangle x1="-0.6" y1="0.5" x2="-0.3" y2="0.8" layer="51"/>
+<rectangle x1="-0.625" y1="0.925" x2="-0.4" y2="1" layer="51"/>
 </package>
 </packages>
 </library>
@@ -1396,6 +1431,23 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
 </package>
+<package name="M0805">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+MELF 0.10 W</description>
+<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="0.7112" y1="0.635" x2="-0.7112" y2="0.635" width="0.1524" layer="51"/>
+<wire x1="0.7112" y1="-0.635" x2="-0.7112" y2="-0.635" width="0.1524" layer="51"/>
+<smd name="1" x="-0.95" y="0" dx="1.3" dy="1.6" layer="1"/>
+<smd name="2" x="0.95" y="0" dx="1.3" dy="1.6" layer="1"/>
+<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.0414" y1="-0.7112" x2="-0.6858" y2="0.7112" layer="51"/>
+<rectangle x1="0.6858" y1="-0.7112" x2="1.0414" y2="0.7112" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.5999" x2="0.1999" y2="0.5999" layer="35"/>
+</package>
 </packages>
 </library>
 <library name="con-phoenix-350">
@@ -1709,87 +1761,110 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="Mine" package="E5-10,5" value="47uF" x="12.7" y="60.96"/>
-<element name="C2" library="Mine" package="E5-10,5" value="47uF" x="66.04" y="72.39"/>
-<element name="CHG2" library="Mine" package="SLA_CHARGER" value="AG102_SLA_CHARGER" x="48.006" y="21.844" rot="R90"/>
-<element name="F2" library="fuse" package="SH22,5" value="3A" x="13.97" y="50.8">
-<attribute name="OC_FARNELL" value="1162740" x="13.97" y="50.8" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="96F8317" x="13.97" y="50.8" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="0031.8201" x="13.97" y="50.8" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="SCHURTER" x="13.97" y="50.8" size="1.778" layer="27" display="off"/>
+<element name="C1" library="Mine" package="E5-10,5" value="47uF" x="71.374" y="67.818" smashed="yes">
+<attribute name="NAME" x="76.073" y="70.5612" size="1.27" layer="25" ratio="10"/>
 </element>
-<element name="THR1" library="Mine" package="RS-2,5" value="THERMISTOR-2,5" x="60.96" y="80.01"/>
-<element name="THR2" library="Mine" package="RS-2,5" value="THERMISTOR-2,5" x="45.72" y="80.01"/>
-<element name="R3" library="rcl" package="R0805" value="43K, 1%" x="35.56" y="81.28"/>
-<element name="R4" library="rcl" package="R0805" value="43K, 1%" x="26.67" y="81.28"/>
-<element name="R5" library="rcl" package="R0805" value="47K" x="21.59" y="81.28"/>
-<element name="R6" library="rcl" package="R0805" value="47K" x="16.51" y="81.28"/>
-<element name="X2" library="con-phoenix-350" package="1751264" value="1751264" x="53.34" y="71.12">
-<attribute name="OC_FARNELL" value="unknown" x="53.34" y="71.12" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="10R0934" x="53.34" y="71.12" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="1751264" x="53.34" y="71.12" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="53.34" y="71.12" size="1.778" layer="27" display="off"/>
+<element name="C2" library="Mine" package="E5-10,5" value="47uF" x="8.89" y="67.818" smashed="yes" rot="R180">
+<attribute name="NAME" x="4.191" y="65.0748" size="1.27" layer="25" ratio="10" rot="R180"/>
 </element>
-<element name="X1" library="con-phoenix-350" package="1751248" value="1751248" x="1.27" y="-11.43">
-<attribute name="OC_FARNELL" value="unknown" x="1.27" y="-11.43" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="1.27" y="-11.43" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="1.27" y="-11.43" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="1.27" y="-11.43" size="1.778" layer="27" display="off"/>
+<element name="CHG2" library="Mine" package="SLA_CHARGER" value="AG102_SLA_CHARGER" x="19.812" y="47.498" rot="R270"/>
+<element name="F2" library="fuse" package="SH22,5" value="3A" x="29.972" y="82.296">
+<attribute name="OC_FARNELL" value="1162740" x="29.972" y="82.296" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="96F8317" x="29.972" y="82.296" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="0031.8201" x="29.972" y="82.296" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="SCHURTER" x="29.972" y="82.296" size="1.778" layer="27" display="off"/>
 </element>
-<element name="X3" library="Mine" package="22-23-2031" value="22-23-2031" x="1.27" y="-27.94">
-<attribute name="OC_FARNELL" value="1462950" x="1.27" y="-27.94" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="30C0862" x="1.27" y="-27.94" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="22-23-2031" x="1.27" y="-27.94" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="MOLEX" x="1.27" y="-27.94" size="1.778" layer="27" display="off"/>
+<element name="THR1" library="Mine" package="RS-2,5" value="THERMISTOR-2,5" x="70.866" y="18.034" smashed="yes">
+<attribute name="NAME" x="68.326" y="21.082" size="1.27" layer="25" ratio="10"/>
 </element>
-<element name="CHG1" library="Mine" package="SLA_CHARGER" value="AG102_SLA_CHARGER" x="18.542" y="-43.18"/>
+<element name="THR2" library="Mine" package="RS-2,5" value="THERMISTOR-2,5" x="8.89" y="16.764" smashed="yes">
+<attribute name="NAME" x="6.35" y="19.812" size="1.27" layer="25" ratio="10"/>
+</element>
+<element name="R3" library="rcl" package="R0805" value="43K, 1%" x="71.628" y="60.706" smashed="yes" rot="R180">
+<attribute name="NAME" x="72.263" y="59.436" size="1.27" layer="25" rot="R180"/>
+</element>
+<element name="R4" library="rcl" package="R0805" value="43K, 1%" x="8.89" y="59.69" smashed="yes">
+<attribute name="NAME" x="8.255" y="60.96" size="1.27" layer="25"/>
+</element>
+<element name="R5" library="rcl" package="R0805" value="47K" x="8.636" y="55.626" smashed="yes">
+<attribute name="NAME" x="8.001" y="56.896" size="1.27" layer="25"/>
+</element>
+<element name="R6" library="rcl" package="R0805" value="47K" x="71.628" y="56.642" smashed="yes" rot="R180">
+<attribute name="NAME" x="72.263" y="55.372" size="1.27" layer="25" rot="R180"/>
+</element>
+<element name="X2" library="con-phoenix-350" package="1751264" value="1751264" x="32.258" y="6.096" smashed="yes">
+<attribute name="OC_FARNELL" value="unknown" x="32.258" y="6.096" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="10R0934" x="32.258" y="6.096" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="1751264" x="32.258" y="6.096" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="32.258" y="6.096" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="24.653" y="3.2385" size="1.27" layer="25" rot="R90"/>
+</element>
+<element name="X1" library="con-phoenix-350" package="1751248" value="1751248" x="55.118" y="82.042" smashed="yes">
+<attribute name="OC_FARNELL" value="unknown" x="55.118" y="82.042" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="55.118" y="82.042" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="" x="55.118" y="82.042" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="" x="55.118" y="82.042" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="51.013" y="79.1845" size="1.27" layer="25" rot="R90"/>
+</element>
+<element name="X3" library="Mine" package="22-23-2031" value="22-23-2031" x="49.53" y="5.842" smashed="yes">
+<attribute name="OC_FARNELL" value="1462950" x="49.53" y="5.842" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="30C0862" x="49.53" y="5.842" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="22-23-2031" x="49.53" y="5.842" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="MOLEX" x="49.53" y="5.842" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="45.72" y="9.652" size="1.016" layer="25" ratio="10"/>
+</element>
+<element name="CHG1" library="Mine" package="SLA_CHARGER" value="AG102_SLA_CHARGER" x="59.944" y="47.498" rot="R270"/>
+<element name="LED1" library="Mine" package="CHIPLED_0805" value="LEDCHIPLED_0805" x="41.402" y="103.378"/>
+<element name="R1" library="rcl" package="M0805" value="1k" x="57.658" y="98.044"/>
 </elements>
 <signals>
 <signal name="BATA_-">
 <contactref element="X2" pad="2"/>
 <contactref element="CHG1" pad="20"/>
 <contactref element="CHG1" pad="22"/>
-<wire x1="46.482" y1="-43.18" x2="51.59" y2="71.02" width="0" layer="19" extent="1-1"/>
-<wire x1="43.942" y1="-43.18" x2="46.482" y2="-43.18" width="0" layer="19" extent="1-1"/>
+<wire x1="59.944" y1="19.558" x2="59.944" y2="22.098" width="0" layer="19" extent="1-1"/>
+<wire x1="30.508" y1="5.996" x2="59.944" y2="19.558" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VCC">
-<contactref element="C1" pad="+"/>
 <contactref element="C2" pad="+"/>
 <contactref element="CHG2" pad="1"/>
 <contactref element="CHG2" pad="2"/>
+<contactref element="LED1" pad="A"/>
 <contactref element="F2" pad="1"/>
+<contactref element="C1" pad="+"/>
 <contactref element="CHG1" pad="1"/>
 <contactref element="CHG1" pad="2"/>
-<wire x1="10.16" y1="60.96" x2="63.5" y2="72.39" width="0" layer="19" extent="1-1"/>
-<wire x1="2.7178" y1="50.8" x2="10.16" y2="60.96" width="0" layer="19" extent="1-1"/>
-<wire x1="48.006" y1="1.524" x2="2.7178" y2="50.8" width="0" layer="19" extent="1-1"/>
-<wire x1="48.006" y1="-1.016" x2="48.006" y2="1.524" width="0" layer="19" extent="1-1"/>
-<wire x1="-1.778" y1="-43.18" x2="48.006" y2="-1.016" width="0" layer="19" extent="1-1"/>
-<wire x1="-4.318" y1="-43.18" x2="-1.778" y2="-43.18" width="0" layer="19" extent="1-1"/>
+<wire x1="18.7198" y1="82.296" x2="41.402" y2="102.328" width="0" layer="19" extent="1-1"/>
+<wire x1="19.812" y1="70.358" x2="18.7198" y2="82.296" width="0" layer="19" extent="1-1"/>
+<wire x1="19.812" y1="67.818" x2="19.812" y2="70.358" width="0" layer="19" extent="1-1"/>
+<wire x1="11.43" y1="67.818" x2="19.812" y2="67.818" width="0" layer="19" extent="1-1"/>
+<wire x1="59.944" y1="70.358" x2="41.402" y2="102.328" width="0" layer="19" extent="1-1"/>
+<wire x1="59.944" y1="67.818" x2="59.944" y2="70.358" width="0" layer="19" extent="1-1"/>
+<wire x1="68.834" y1="67.818" x2="59.944" y2="67.818" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
 <contactref element="R3" pad="2"/>
 <contactref element="CHG1" pad="3"/>
-<wire x1="0.762" y1="-43.18" x2="36.51" y2="81.28" width="0" layer="19" extent="1-1"/>
+<wire x1="70.678" y1="60.706" x2="59.944" y2="65.278" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$13">
 <contactref element="R4" pad="2"/>
 <contactref element="CHG2" pad="3"/>
-<wire x1="48.006" y1="4.064" x2="27.62" y2="81.28" width="0" layer="19" extent="1-1"/>
+<wire x1="9.84" y1="59.69" x2="19.812" y2="65.278" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="STAT1">
 <contactref element="R6" pad="2"/>
 <contactref element="X3" pad="1"/>
 <contactref element="CHG1" pad="4"/>
-<wire x1="-1.27" y1="-27.94" x2="17.46" y2="81.28" width="0" layer="19" extent="1-1"/>
-<wire x1="3.302" y1="-43.18" x2="-1.27" y2="-27.94" width="0" layer="19" extent="1-1"/>
+<wire x1="70.678" y1="56.642" x2="59.944" y2="62.738" width="0" layer="19" extent="1-1"/>
+<wire x1="46.99" y1="5.842" x2="70.678" y2="56.642" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="STAT2">
 <contactref element="R5" pad="2"/>
 <contactref element="CHG2" pad="4"/>
 <contactref element="X3" pad="2"/>
-<wire x1="48.006" y1="6.604" x2="22.54" y2="81.28" width="0" layer="19" extent="1-1"/>
-<wire x1="1.27" y1="-27.94" x2="48.006" y2="6.604" width="0" layer="19" extent="1-1"/>
+<wire x1="9.586" y1="55.626" x2="19.812" y2="62.738" width="0" layer="19" extent="1-1"/>
+<wire x1="49.53" y1="5.842" x2="9.586" y2="55.626" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="R4" pad="1"/>
@@ -1818,42 +1893,45 @@ design rules under a new name.</description>
 <contactref element="CHG2" pad="6"/>
 <contactref element="C2" pad="-"/>
 <contactref element="CHG2" pad="5"/>
-<wire x1="8.382" y1="-43.18" x2="5.842" y2="-43.18" width="0" layer="19" extent="1-1"/>
-<wire x1="3.81" y1="-27.94" x2="5.842" y2="-43.18" width="0" layer="19" extent="1-1"/>
-<wire x1="3.02" y1="-11.53" x2="3.81" y2="-27.94" width="0" layer="19" extent="1-1"/>
-<wire x1="48.006" y1="9.144" x2="3.02" y2="-11.53" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="+12V_TB">
-<contactref element="X1" pad="1"/>
-<contactref element="F2" pad="2"/>
-<wire x1="-0.48" y1="-11.53" x2="25.2222" y2="50.8" width="0" layer="19" extent="1-1"/>
+<contactref element="R1" pad="1"/>
+<wire x1="10.16" y1="16.764" x2="56.708" y2="98.044" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="THR1" pad="1"/>
 <contactref element="CHG1" pad="19"/>
-<wire x1="41.402" y1="-43.18" x2="59.69" y2="80.01" width="0" layer="19" extent="1-1"/>
+<wire x1="59.944" y1="24.638" x2="69.596" y2="18.034" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="CHG2" pad="19"/>
 <contactref element="THR2" pad="1"/>
-<wire x1="48.006" y1="44.704" x2="44.45" y2="80.01" width="0" layer="19" extent="1-1"/>
+<wire x1="7.62" y1="16.764" x2="19.812" y2="24.638" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BATA_+">
 <contactref element="X2" pad="1"/>
 <contactref element="CHG1" pad="23"/>
-<wire x1="49.022" y1="-43.18" x2="48.09" y2="71.02" width="0" layer="19" extent="1-1"/>
+<wire x1="27.008" y1="5.996" x2="59.944" y2="17.018" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BATB_-">
 <contactref element="X2" pad="4"/>
 <contactref element="CHG2" pad="20"/>
 <contactref element="CHG2" pad="22"/>
-<wire x1="48.006" y1="49.784" x2="58.59" y2="71.02" width="0" layer="19" extent="1-1"/>
-<wire x1="48.006" y1="47.244" x2="48.006" y2="49.784" width="0" layer="19" extent="1-1"/>
+<wire x1="19.812" y1="19.558" x2="37.508" y2="5.996" width="0" layer="19" extent="1-1"/>
+<wire x1="19.812" y1="22.098" x2="19.812" y2="19.558" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BATB_+">
 <contactref element="CHG2" pad="23"/>
 <contactref element="X2" pad="3"/>
-<wire x1="48.006" y1="52.324" x2="55.09" y2="71.02" width="0" layer="19" extent="1-1"/>
+<wire x1="19.812" y1="17.018" x2="34.008" y2="5.996" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$3">
+<contactref element="R1" pad="2"/>
+<contactref element="LED1" pad="C"/>
+<wire x1="41.402" y1="104.428" x2="58.608" y2="98.044" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="+12V_TB">
+<contactref element="X1" pad="1"/>
+<contactref element="F2" pad="2"/>
+<wire x1="41.2242" y1="82.296" x2="53.368" y2="81.942" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
