@@ -1483,8 +1483,8 @@ design rules under a new name.</description>
 <signal name="GND">
 <polygon width="0.3048" layer="1">
 <vertex x="-0.254" y="11.43"/>
-<vertex x="16.764" y="11.43"/>
-<vertex x="16.764" y="0.762"/>
+<vertex x="14.732" y="11.43"/>
+<vertex x="14.732" y="0.762"/>
 <vertex x="-0.254" y="0.762"/>
 </polygon>
 <contactref element="S1" pad="2"/>
