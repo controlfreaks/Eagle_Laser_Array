@@ -1813,25 +1813,6 @@ Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</descriptio
 <hole x="-5.08" y="0" drill="3.2512"/>
 <hole x="5.08" y="0" drill="3.2512"/>
 </package>
-<package name="87758-0216">
-<description>&lt;b&gt;2 Pin - 2mm Dual Row Single Wafer, Vertical T/H HDR&lt;/b&gt;&lt;p&gt;
-Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
-<wire x1="-0.85" y1="-1.9" x2="0.85" y2="-1.9" width="0.2032" layer="21"/>
-<wire x1="0.85" y1="-1.9" x2="0.85" y2="-0.4" width="0.2032" layer="21"/>
-<wire x1="0.85" y1="0.4" x2="0.85" y2="1.9" width="0.2032" layer="21"/>
-<wire x1="0.85" y1="1.9" x2="-0.85" y2="1.9" width="0.2032" layer="21"/>
-<wire x1="-0.85" y1="1.9" x2="-0.85" y2="0.4" width="0.2032" layer="21"/>
-<wire x1="-0.85" y1="-0.4" x2="-0.85" y2="-1.9" width="0.2032" layer="21"/>
-<wire x1="-0.85" y1="0.4" x2="-0.85" y2="-0.4" width="0.2032" layer="21" curve="-129.184564"/>
-<wire x1="0.85" y1="-0.4" x2="0.85" y2="0.4" width="0.2032" layer="21" curve="-129.184564"/>
-<pad name="1" x="0" y="-1" drill="0.9" diameter="1.27"/>
-<pad name="2" x="0" y="1" drill="0.9" diameter="1.27"/>
-<text x="-0.65" y="-1.75" size="0.3048" layer="21" font="vector">1</text>
-<text x="-0.62" y="-3.81" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.62" y="2.54" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.25" y1="-1.25" x2="0.25" y2="-0.75" layer="51"/>
-<rectangle x1="-0.25" y1="0.75" x2="0.25" y2="1.25" layer="51"/>
-</package>
 </packages>
 </library>
 <library name="semicon-smd-ipc">
@@ -2687,18 +2668,6 @@ design rules under a new name.</description>
 <attribute name="MF" value="MOLEX" x="94.488" y="112.014" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="30C0862" x="94.488" y="112.014" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="90.678" y="108.204" size="1.016" layer="25" ratio="10" rot="R90"/>
-</element>
-<element name="X7" library="Mine" package="87758-0216" value="87758-0216" x="-21.59" y="29.718">
-<attribute name="MPN" value="87758-0216" x="-21.59" y="29.718" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="94M1513" x="-21.59" y="29.718" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="-21.59" y="29.718" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="-21.59" y="29.718" size="1.778" layer="27" display="off"/>
-</element>
-<element name="X8" library="Mine" package="87758-0216" value="87758-0216" x="-35.814" y="29.718">
-<attribute name="MPN" value="87758-0216" x="-35.814" y="29.718" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="94M1513" x="-35.814" y="29.718" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="-35.814" y="29.718" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="" x="-35.814" y="29.718" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>

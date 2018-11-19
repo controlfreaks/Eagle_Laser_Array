@@ -3662,7 +3662,7 @@ package type OT</description>
 <text x="-10.268" y="60.138" size="1.4224" layer="91">SDA</text>
 <text x="-11.9" y="62.82" size="1.4224" layer="91">SCLK</text>
 <text x="-10.1" y="55.14" size="1.4224" layer="91">GND</text>
-<text x="-10.08" y="57.8" size="1.4224" layer="91">VDD</text>
+<text x="-10.08" y="57.8" size="1.4224" layer="91">VTS</text>
 </plain>
 <instances>
 <instance part="C1" gate="G$1" x="22.86" y="50.8" smashed="yes" rot="R180">
