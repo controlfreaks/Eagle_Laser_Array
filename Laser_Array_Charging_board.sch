@@ -5052,26 +5052,26 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 <pad name="4" x="-15.24" y="0" drill="1" shape="long" rot="R90"/>
 <pad name="5" x="-12.7" y="0" drill="1" shape="long" rot="R90"/>
 <pad name="6" x="-10.16" y="0" drill="1" shape="long" rot="R90"/>
-<wire x1="-24.13" y1="3.175" x2="33.02" y2="3.175" width="0.254" layer="21"/>
-<wire x1="33.02" y1="3.175" x2="33.02" y2="1.27" width="0.254" layer="21"/>
-<wire x1="33.02" y1="1.27" x2="33.02" y2="-3.175" width="0.254" layer="21"/>
-<wire x1="33.02" y1="-3.175" x2="-24.13" y2="-3.175" width="0.254" layer="21"/>
-<wire x1="-24.13" y1="1.27" x2="33.02" y2="1.27" width="0.254" layer="21"/>
-<pad name="19" x="22.86" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="20" x="25.4" y="0" drill="1" shape="long" rot="R90"/>
+<wire x1="-24.13" y1="3.175" x2="30.48" y2="3.175" width="0.254" layer="21"/>
+<wire x1="30.48" y1="3.175" x2="30.48" y2="1.27" width="0.254" layer="21"/>
+<wire x1="30.48" y1="1.27" x2="30.48" y2="-3.175" width="0.254" layer="21"/>
+<wire x1="30.48" y1="-3.175" x2="-24.13" y2="-3.175" width="0.254" layer="21"/>
+<wire x1="-24.13" y1="1.27" x2="30.48" y2="1.27" width="0.254" layer="21"/>
+<pad name="19" x="20.32" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="20" x="22.86" y="0" drill="1" shape="long" rot="R90"/>
 <text x="-24.13" y="3.81" size="1.016" layer="25" ratio="10">&gt;SLA Charger</text>
-<pad name="22" x="27.94" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="23" x="30.48" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="22" x="25.4" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="23" x="27.94" y="0" drill="1" shape="long" rot="R90"/>
 <text x="-23.876" y="1.778" size="1.016" layer="21">vin+</text>
 <text x="-21.844" y="-2.794" size="1.016" layer="21">vin+</text>
 <text x="-18.542" y="1.778" size="1.016" layer="21">CS</text>
 <text x="-16.764" y="-2.794" size="1.016" layer="21">Stat</text>
 <text x="-13.89" y="1.82" size="1.016" layer="21">GND</text>
 <text x="-11.684" y="-2.794" size="1.016" layer="21">GND</text>
-<text x="21.34" y="1.78" size="1.016" layer="21">THR</text>
-<text x="24.11" y="-2.79" size="1.016" layer="21">BAT-</text>
-<text x="26.52" y="1.83" size="1.016" layer="21">BAT-</text>
-<text x="29.25" y="-2.77" size="1.016" layer="21">BAT+</text>
+<text x="18.8" y="1.78" size="1.016" layer="21">THR</text>
+<text x="21.57" y="-2.79" size="1.016" layer="21">BAT-</text>
+<text x="23.98" y="1.83" size="1.016" layer="21">BAT-</text>
+<text x="26.71" y="-2.77" size="1.016" layer="21">BAT+</text>
 </package>
 <package name="22-23-2031">
 <description>.100" (2.54mm) Center Header - 3 Pin</description>
@@ -11743,11 +11743,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="F2" library="fuse" deviceset="SH22,5" device="" value="3A"/>
 <part name="CHG2" library="Mine" deviceset="AG102_SLA_CHARGER" device=""/>
 <part name="X3" library="Mine" deviceset="22-23-2031" device=""/>
-<part name="CHG1" library="Mine" deviceset="AG102_SLA_CHARGER" device=""/>
 <part name="LED1" library="Mine" deviceset="LED" device="CHIPLED_0805"/>
 <part name="R1" library="rcl" deviceset="R-US_" device="M0805" value="1k"/>
 <part name="X4" library="Mine" deviceset="22-23-2041" device=""/>
 <part name="J1" library="Mine" deviceset="22-23-2021" device=""/>
+<part name="CHG1" library="Mine" deviceset="AG102_SLA_CHARGER" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11793,7 +11793,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="X3" gate="-3" x="73.66" y="35.56" smashed="yes">
 <attribute name="NAME" x="76.2" y="34.798" size="1.524" layer="95"/>
 </instance>
-<instance part="CHG1" gate="G$1" x="-25.4" y="58.42" rot="MR0"/>
 <instance part="LED1" gate="G$1" x="38.1" y="63.5"/>
 <instance part="R1" gate="G$1" x="38.1" y="50.8" rot="R90"/>
 <instance part="X4" gate="-1" x="-127" y="25.4" smashed="yes" rot="MR0">
@@ -11814,6 +11813,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="J1" gate="-2" x="63.5" y="66.04" smashed="yes">
 <attribute name="NAME" x="66.04" y="65.278" size="1.524" layer="95"/>
 </instance>
+<instance part="CHG1" gate="G$1" x="-25.4" y="58.42" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -11848,9 +11848,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="10.16" y1="68.58" x2="10.16" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="76.2" x2="12.7" y2="76.2" width="0.1524" layer="91"/>
 <label x="12.7" y="76.2" size="1.778" layer="95" xref="yes"/>
+<wire x1="38.1" y1="68.58" x2="10.16" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="CHG1" gate="G$1" pin="VIN1+"/>
 <pinref part="CHG1" gate="G$1" pin="VIN2+"/>
-<wire x1="38.1" y1="68.58" x2="10.16" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -11953,8 +11953,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="38.1" y1="25.4" x2="48.26" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="-35.56" x2="17.78" y2="-40.64" width="0.1524" layer="91"/>
 <junction x="17.78" y="-40.64"/>
-<pinref part="CHG1" gate="G$1" pin="GND1"/>
-<pinref part="CHG1" gate="G$1" pin="GND2"/>
 <pinref part="CHG2" gate="G$1" pin="GND2"/>
 <wire x1="-2.54" y1="-25.4" x2="0" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="0" y1="-25.4" x2="0" y2="-40.64" width="0.1524" layer="91"/>
@@ -11972,6 +11970,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <junction x="38.1" y="25.4"/>
 <pinref part="J1" gate="-2" pin="S"/>
 <wire x1="60.96" y1="66.04" x2="48.26" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="CHG1" gate="G$1" pin="GND1"/>
+<pinref part="CHG1" gate="G$1" pin="GND2"/>
 </segment>
 <segment>
 <pinref part="X3" gate="-3" pin="S"/>

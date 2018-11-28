@@ -10834,10 +10834,7 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <junction x="-48.26" y="-40.64"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="7.62" y1="-35.56" x2="7.62" y2="-40.64" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="17.78" y1="-35.56" x2="17.78" y2="-40.64" width="0.1524" layer="91"/>
 <junction x="7.62" y="-40.64"/>
-<wire x1="17.78" y1="-40.64" x2="7.62" y2="-40.64" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="-40.64" x2="0" y2="-40.64" width="0.1524" layer="91"/>
 <wire x1="0" y1="-40.64" x2="-48.26" y2="-40.64" width="0.1524" layer="91"/>
 <junction x="0" y="-40.64"/>
@@ -10852,9 +10849,13 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 <wire x1="38.1" y1="60.96" x2="38.1" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="25.4" x2="38.1" y2="-40.64" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="-40.64" x2="17.78" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="-40.64" x2="7.62" y2="-40.64" width="0.1524" layer="91"/>
 <wire x1="17.78" y1="25.4" x2="38.1" y2="25.4" width="0.1524" layer="91"/>
 <junction x="17.78" y="25.4"/>
 <junction x="38.1" y="25.4"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="17.78" y1="-35.56" x2="17.78" y2="-40.64" width="0.1524" layer="91"/>
+<junction x="17.78" y="-40.64"/>
 </segment>
 <segment>
 <pinref part="X3" gate="-3" pin="S"/>
@@ -10951,6 +10952,9 @@ Source: http://eshop.phoenixcontact.com .. 1751248.pdf</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,147.32,-119.482,FRAME1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>

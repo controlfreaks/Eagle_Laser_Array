@@ -177,7 +177,7 @@
 <text x="58.293" y="7.4422" size="0.8128" layer="21" rot="R315">Stat A</text>
 <text x="55.4228" y="7.2136" size="0.8128" layer="21" rot="R315">Stat B</text>
 <text x="31.496" y="4.826" size="0.8128" layer="21" rot="R315">BatA-</text>
-<text x="36.83" y="3.556" size="0.8128" layer="21" rot="R315">BatA+</text>
+<text x="34.036" y="4.826" size="0.8128" layer="21" rot="R315">BatA+</text>
 <text x="26.162" y="4.826" size="0.8128" layer="21" rot="R315">BatB-</text>
 <text x="28.956" y="4.826" size="0.8128" layer="21" rot="R315">BatB+</text>
 <text x="25.654" y="12.446" size="1.6764" layer="21">BATTERY</text>

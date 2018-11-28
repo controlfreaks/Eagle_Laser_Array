@@ -174,17 +174,19 @@
 <wire x1="41.148" y1="14.478" x2="41.148" y2="71.628" width="0.3048" layer="21"/>
 <text x="54.864" y="72.644" size="1.778" layer="21">Unit A</text>
 <text x="17.018" y="72.39" size="1.778" layer="21">Unit B</text>
-<text x="58.928" y="1.524" size="0.6096" layer="21" rot="R90">Stat A</text>
-<text x="56.388" y="1.524" size="0.6096" layer="21" rot="R90">Stat B</text>
+<text x="57.785" y="3.8862" size="0.8128" layer="21" rot="R315">Stat A</text>
+<text x="54.9148" y="3.9116" size="0.8128" layer="21" rot="R315">Stat B</text>
 <text x="33.528" y="3.556" size="0.8128" layer="21" rot="R315">BatA-</text>
 <text x="36.83" y="3.556" size="0.8128" layer="21" rot="R315">BatA+</text>
 <text x="26.67" y="3.556" size="0.8128" layer="21" rot="R315">BatB-</text>
 <text x="29.972" y="3.556" size="0.8128" layer="21" rot="R315">BatB+</text>
-<text x="28.702" y="12.446" size="1.27" layer="21">BATTERY</text>
-<text x="53.594" y="11.684" size="1.27" layer="21">STAT</text>
-<text x="52.07" y="76.454" size="1.27" layer="21">POWER</text>
+<text x="28.702" y="12.446" size="1.6764" layer="21">BATTERY</text>
+<text x="53.594" y="11.684" size="1.6764" layer="21">STAT</text>
+<text x="50.8" y="75.946" size="1.6764" layer="21">POWER</text>
 <text x="4.318" y="18.034" size="1.778" layer="21" rot="R90">Battery Charger Board V1.0</text>
 <text x="76.708" y="3.556" size="1.778" layer="21" rot="R90">Terawatt Productions Inc. Sept 13, 2018.</text>
+<text x="49.276" y="86.614" size="1.143" layer="21">+12V</text>
+<text x="56.134" y="86.614" size="1.143" layer="21">GND</text>
 </plain>
 <libraries>
 <library name="Mine">
