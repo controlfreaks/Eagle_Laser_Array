@@ -16966,6 +16966,7 @@ W = angled&lt;p&gt;
 <text x="5.08" y="-27.94" size="1.778" layer="91">Ext Fan Header</text>
 <text x="102.616" y="-64.008" size="1.4224" layer="91">GND</text>
 <text x="236.22" y="147.32" size="1.778" layer="91">+5.0V</text>
+<text x="99.822" y="103.632" size="1.4224" layer="91">VLASER</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="15.24" y="55.88"/>

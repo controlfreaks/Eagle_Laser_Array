@@ -2666,10 +2666,10 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="1462950" x="94.484" y="100.968" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="90.674" y="97.158" size="1.016" layer="25" ratio="10" rot="R90"/>
 </element>
-<element name="R9" library="rcl" package="M0805" value="4.7k" x="33.882" y="115.768" smashed="yes" rot="R90">
+<element name="R9" library="rcl" package="M0805" value="2.2k" x="33.882" y="115.768" smashed="yes" rot="R90">
 <attribute name="NAME" x="32.612" y="114.498" size="1.27" layer="25" rot="R90"/>
 </element>
-<element name="R15" library="rcl" package="M0805" value="4.7k" x="30" y="115.768" smashed="yes" rot="R90">
+<element name="R15" library="rcl" package="M0805" value="2.2k" x="30" y="115.768" smashed="yes" rot="R90">
 <attribute name="NAME" x="27.404" y="117.658" size="1.27" layer="25" rot="R270"/>
 </element>
 <element name="Q5" library="Mine" package="SOT23-5L" value="" x="74.314" y="113.902" smashed="yes" rot="R90">
